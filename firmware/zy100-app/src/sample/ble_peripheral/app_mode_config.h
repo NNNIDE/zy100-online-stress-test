@@ -1,0 +1,14 @@
+#ifndef ZY100_APP_MODE_CONFIG_H_
+#define ZY100_APP_MODE_CONFIG_H_
+
+#define ZY100_APP_MODE_CAPTURE_CHAIN     2
+
+#ifndef ZY100_APP_MODE
+#define ZY100_APP_MODE                   ZY100_APP_MODE_CAPTURE_CHAIN
+#endif
+
+#if (ZY100_APP_MODE != ZY100_APP_MODE_CAPTURE_CHAIN)
+#error "ZY100_APP_MODE must be ZY100_APP_MODE_CAPTURE_CHAIN for the current RC baseline"
+#endif
+
+#endif /* ZY100_APP_MODE_CONFIG_H_ */

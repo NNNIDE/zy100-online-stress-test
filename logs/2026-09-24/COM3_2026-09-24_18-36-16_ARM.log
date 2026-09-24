@@ -1,0 +1,101 @@
+ 0001982  09-24#18:32:10.863  163 04800 [WAKE_ADC] complete ok=1 pct=73
+ 0001983  09-24#18:32:22.555  170 16500 [WAKE_BOOT] flash_ready ble=1 auto_entry=1
+ 0001984  09-24#18:32:22.663  185 16600 [BLE_ADV] active cause=0x0 sub=0
+ 0001985  09-24#18:32:23.694  205 17630 [BLE_ADV] stopped cause=0x0 sub=1
+ 0001986  09-24#18:32:23.709  214 17650 [EVT][BLE] connected conn=0
+ 0001987  09-24#18:32:25.099  078 18910 [BLE_READY] conn=0 overall=0 state=1 stage=6 reason=0
+ 0001988  09-24#18:32:31.606  241 25410 [BLE_READY] conn=0 overall=1 state=1 stage=12 reason=0
+ 0001989  09-24#18:32:31.841  004 25650 [CLK_CFG] pre_os target=80000000 set_ok=1 cpu_clock_hz=80000000 ok=1
+ 0001990  09-24#18:32:32.090  005 25910 [CLK_CFG] pre_os target=80000000 set_ok=1 cpu_clock_hz=80000000 ok=1
+ 0001991  09-24#18:32:32.151  006 25960 [BLE_READY] conn=0 overall=2 state=1 stage=13 reason=0
+ 0001992  09-24#18:32:43.764  047 37580 [BLE_READY] conn=0 overall=2 state=6 stage=13 reason=0
+ 0001993  09-24#18:32:45.043  052 38860 [BLE_READY] conn=0 overall=0 state=6 stage=6 reason=0
+ 0001994  09-24#18:32:46.434  067 40170 [BLE_READY] conn=0 overall=2 state=6 stage=13 reason=0
+ 0001995  09-24#18:32:46.434  068 40220 [BLE_READY] conn=0 overall=2 state=1 stage=13 reason=0
+ 0001996  09-24#18:32:47.635  074 41450 [CAP_READY] mode=1 id=1
+ 0001997  09-24#18:32:47.635  075 41450 [CAP_DATA] mode=1 id=1
+ 0001998  09-24#18:32:47.650  076 41470 [BLE_READY] conn=0 overall=2 state=11 stage=13 reason=0
+ 0001999  09-24#18:35:47.682  030 24862 [BLE_READY] conn=0 overall=2 state=3 stage=13 reason=0
+ 0002000  09-24#18:35:47.729  031 24872 [ONLINE_STATE] stop_capture reason=1
+ 0002001  09-24#18:35:48.084  036 25272 [RAW] acc=144198 commit=144198 discard=0 rec=226 part=1 hi=799 err=0
+ 0002002  09-24#18:35:48.084  037 25272 [R]10365,10365,3234,0,0,226,0/0/0,0/0/0
+ 0002003  09-24#18:35:48.084  038 25272 [MAG_RAW] acc=18785 commit=18785 discard=0 read_err=0 missed=7 hi=107
+ 0002004  09-24#18:35:48.442  042 25622 [BLE_READY] conn=0 overall=2 state=12 stage=13 reason=0
+ 0002005  09-24#18:35:48.474  044 25662 [BLE_READY] conn=0 overall=2 state=3 stage=13 reason=0
+ 0002006  09-24#18:35:48.474  045 25662 [BLE_READY] conn=0 overall=0 state=6 stage=6 reason=0
+ 0002007  09-24#18:35:48.631  046 25832 [ONLINE_END] why=online_cleanup issue=0 last=0 pend=0/0 bytes=3213052 notify_fail=0 ack_to=0
+ 0002008  09-24#18:35:48.646  052 25842 [RES_BLE] ms=180860 accept_Bps=17765 peak_Bps=27680 win_ms=1000 mtu=247 ci=12 phy=2/2
+ 0002009  09-24#18:35:48.662  053 25852 [RES_MEM] data_min=1112 buffer_min=184 samples=181 poll_gap_ms=70 cpu_pct=NA ble_max=NA
+ 0002010  09-24#18:35:48.662  054 25862 [RES_TX] pend_hi=24064 pend_end=0 cap_block=0 ack_max_ms=910 ack_to=0 fail=0
+ 0002011  09-24#18:35:48.677  055 25872 [RES_FLASH] erase_max_ms=88 erased_min=53504 errors=0/0/0
+ 0002012  09-24#18:35:48.693  056 25882 [RES_RING] imu_hi=799 imu_cap=1942 mag_hi=107 mag_cap=256 miss=7 read_err=0
+ 0002013  09-24#18:35:48.693  057 25892 [RES_IO] page_build_us=492 prog_us=982 verify_us=964 prep_us=1927 rec_max_ms=320
+ 0002014  09-24#18:35:48.708  058 25902 [RES_MAG] read_max_us=808 interval_max_us=19079 late_us=10064 gap_us=8134/9921/0
+ 0002015  09-24#18:35:48.723  059 25912 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=0 kind=begin rate=0 elapsed=180450
+ 0002016  09-24#18:35:48.723  060 25922 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=1 kind=state error=0 water=0
+ 0002017  09-24#18:35:48.739  061 25932 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=2 kind=count released=0 pump_max=50
+ 0002018  09-24#18:35:48.754  062 25942 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=3 kind=prep prep_erases=32 events=12
+ 0002019  09-24#18:35:48.754  065 25952 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=4 kind=trace transitions=931
+ 0002020  09-24#18:35:48.770  066 25952 [BLE_READY] conn=0 overall=2 state=6 stage=13 reason=0
+ 0002021  09-24#18:35:48.770  067 25962 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=5 kind=gap from=0 to=0
+ 0002022  09-24#18:35:48.785  068 25972 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=6 kind=water water_from=0 water_to=0
+ 0002023  09-24#18:35:48.785  069 25982 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=7 kind=release freed=0 open=0
+ 0002024  09-24#18:35:48.800  070 25992 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=8 kind=record type=0 age=0
+ 0002025  09-24#18:35:48.800  071 26002 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=9 kind=page page=0 pages=0
+ 0002026  09-24#18:35:48.816  076 26012 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=10 kind=max raw=320 stress=0
+ 0002027  09-24#18:35:48.831  077 26022 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=11 kind=stage stage=0 total=130000 peak=830
+ 0002028  09-24#18:35:48.831  078 26032 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=12 kind=part stage=0 gap=0
+ 0002029  09-24#18:35:48.847  079 26042 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=13 kind=stage stage=1 total=40540 peak=300
+ 0002030  09-24#18:35:48.862  080 26052 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=14 kind=part stage=1 gap=0
+ 0002031  09-24#18:35:48.862  081 26062 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=15 kind=stage stage=2 total=1490 peak=20
+ 0002032  09-24#18:35:48.877  082 26072 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=16 kind=part stage=2 gap=0
+ 0002033  09-24#18:35:48.892  083 26082 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=17 kind=stage stage=3 total=7890 peak=320
+ 0002034  09-24#18:35:48.892  084 26092 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=18 kind=part stage=3 gap=0
+ 0002035  09-24#18:35:48.907  085 26102 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=19 kind=stage stage=4 total=530 peak=20
+ 0002036  09-24#18:35:48.923  086 26112 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=20 kind=part stage=4 gap=0
+ 0002037  09-24#18:35:48.923  087 26122 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=21 kind=stage stage=5 total=0 peak=0
+ 0002038  09-24#18:35:48.938  088 26132 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=22 kind=part stage=5 gap=0
+ 0002039  09-24#18:35:48.953  089 26142 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=23 kind=stage stage=6 total=0 peak=0
+ 0002040  09-24#18:35:48.953  090 26152 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=24 kind=part stage=6 gap=0
+ 0002041  09-24#18:35:48.969  091 26162 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=25 kind=stage stage=7 total=0 peak=0
+ 0002042  09-24#18:35:48.985  092 26172 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=26 kind=part stage=7 gap=0
+ 0002043  09-24#18:35:48.985  093 26182 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=27 kind=stage stage=8 total=0 peak=0
+ 0002044  09-24#18:35:49.000  094 26192 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=28 kind=part stage=8 gap=0
+ 0002045  09-24#18:35:49.016  095 26202 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=29 kind=event ms=178430 stage=0 water=0
+ 0002046  09-24#18:35:49.016  096 26212 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=30 kind=event ms=179050 stage=4 water=0
+ 0002047  09-24#18:35:49.031  097 26222 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=31 kind=event ms=179050 stage=1 water=0
+ 0002048  09-24#18:35:49.031  098 26232 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=32 kind=event ms=179230 stage=2 water=0
+ 0002049  09-24#18:35:49.047  099 26242 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=33 kind=event ms=179230 stage=0 water=0
+ 0002050  09-24#18:35:49.063  100 26252 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=34 kind=event ms=179850 stage=4 water=0
+ 0002051  09-24#18:35:49.063  101 26262 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=35 kind=event ms=179850 stage=1 water=0
+ 0002052  09-24#18:35:49.079  102 26272 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=36 kind=event ms=180030 stage=2 water=0
+ 0002053  09-24#18:35:49.095  103 26282 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=37 kind=event ms=180030 stage=0 water=0
+ 0002054  09-24#18:35:49.095  104 26292 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=38 kind=event ms=180120 stage=4 water=0
+ 0002055  09-24#18:35:49.110  105 26302 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=39 kind=event ms=180130 stage=1 water=0
+ 0002056  09-24#18:35:49.126  106 26312 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=40 kind=event ms=180430 stage=2 water=0
+ 0002057  09-24#18:35:49.126  107 26322 [STRESS_DIAG] v=2 fw=20007 sid=1 start=41430 n=41 kind=end lines=42
+ 0002058  09-24#18:35:49.142  108 26332 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=0 pump=1 erase=1
+ 0002059  09-24#18:35:49.142  109 26342 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=1 calls=69758 steps=88777
+ 0002060  09-24#18:35:49.157  110 26352 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=2 peak_us=4037 limits=2615
+ 0002061  09-24#18:35:49.173  111 26362 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=3 waits=67402 no_clock=0
+ 0002062  09-24#18:35:49.173  112 26372 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=4 bg=81 urgent=0
+ 0002063  09-24#18:35:49.189  113 26382 [STRESS_OPT] v=1 fw=20007 sid=1 start=41430 n=5 prep_ms=3850 ahead=53504
+ 0002064  09-24#18:35:49.205  114 26392 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=0 fifo=1 flags=0
+ 0002065  09-24#18:35:49.205  115 26402 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=1 calls=10591 total=3854274
+ 0002066  09-24#18:35:49.221  116 26412 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=2 peak=888 unit=1
+ 0002067  09-24#18:35:49.221  117 26422 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=3 calls=10591 total=3092452
+ 0002068  09-24#18:35:49.236  120 26432 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=4 peak=812 unit=1
+ 0002069  09-24#18:35:49.252  121 26442 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=5 calls=13221 total=3248232
+ 0002070  09-24#18:35:49.252  122 26452 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=6 peak=421 unit=1
+ 0002071  09-24#18:35:49.267  123 26462 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=7 calls=45725 total=4445935
+ 0002072  09-24#18:35:49.283  124 26472 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=8 peak=600 unit=1
+ 0002073  09-24#18:35:49.283  125 26482 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=9 bus=0 wip=11160
+ 0002074  09-24#18:35:49.298  126 26492 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=10 spans=10591 total=32769844
+ 0002075  09-24#18:35:49.313  127 26502 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=11 span_max=12812 poll_max=12371
+ 0002076  09-24#18:35:49.313  128 26512 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=12 open_us=0 pending=0
+ 0002077  09-24#18:35:49.329  129 26522 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=13 bus_us=0 wip_us=23966573
+ 0002078  09-24#18:35:49.345  130 26532 [STRESS_IO] v=1 fw=20007 sid=1 start=41430 n=14 end=1 lines=15
+ 0002079  09-24#18:35:49.360  131 26552 [RES_IMU] capture_ms=180100 packets=144198 fifo_hi=208 fifo_cap=1024 full=0 lost=0
+ 0002080  09-24#18:35:49.360  132 26562 [RES_WORKER] gap_ms=20 stack_lifetime_free_B=6460 read_err=0 bad_hdr=0
+ 0002081  09-24#18:35:49.406  133 26592 [BLE_READY] conn=0 overall=2 state=1 stage=13 reason=0
+ 0002082  09-24#18:35:52.890  140 30082 [ONLINE_END_LED] done elapsed_ms=4800 result=complete owner=20 pattern=1

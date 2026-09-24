@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "diagnostic_command": 48,
+  "online_capability": 32,
+  "record_type": 4,
+  "status_frame": 21,
+  "rates_Bps": [
+    0,
+    16000,
+    32000,
+    48000,
+    64000,
+    96000
+  ],
+  "period_ms": 20,
+  "ring_bytes": 4096,
+  "query_detail": 17568831,
+  "source_header_format": "<4sHH14I",
+  "source_header_bytes": 64,
+  "source_padding": 255,
+  "source_alignment": 256,
+  "fixture": {
+    "seed": 305419896,
+    "rate": 32000,
+    "start_ms": 4294967264,
+    "elapsed_ms": 61,
+    "first_block": 0,
+    "blocks": 2,
+    "byte_offset": 0,
+    "data_bytes": 1280,
+    "planned_ms": 20,
+    "delay_ms": [
+      41,
+      21
+    ]
+  }
+}

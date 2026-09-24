@@ -1,0 +1,2364 @@
+{
+  "date": "2026-09-24",
+  "firmware": {
+    "target": "ZY100_Online_Stress_Test",
+    "version": "1.0.0.2",
+    "version_code": 20007,
+    "configuration": "NO_MOS",
+    "app_partition_bytes": 413696,
+    "dependency_source_files": 422,
+    "workspace_head": "b1807ad0aa00915bc0b98158de9c8fa67b1b5006",
+    "provenance": "Build dependency hashes, including uncommitted workspace sources; not a clean commit export."
+  },
+  "host": {
+    "version": "v1.1.108",
+    "provenance": "Current source bytes checked before and after copying; not a claim of packaged executable reproducibility."
+  },
+  "files": [
+    {
+      "path": "firmware/realtek-sdk/bin/upperstack_img/upperstack_0_0/upperstack_config.h",
+      "bytes": 3024,
+      "sha256": "85E566E8F180C6625518C9FC14D1021247C58773F5F3DBAE1B3806D5601BDB9A"
+    },
+    {
+      "path": "firmware/zy100-app/board.h",
+      "bytes": 3334,
+      "sha256": "F46FFC9A19200144B6D671385A25D6CCBEFDFAF8F48D6DD34D91C40CC384059A"
+    },
+    {
+      "path": "firmware/zy100-app/flash_map.h",
+      "bytes": 6919,
+      "sha256": "7DFE31024EC25E292FB5F450D01BF498DDFE8841CF6A0EE501B600683AD033D1"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/bas.h",
+      "bytes": 7277,
+      "sha256": "E0C409CA4DE89D71006DE74D6D5F5BF4D34998C1EB8B299621BB9049C8A4FB81"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/bas_config.h",
+      "bytes": 796,
+      "sha256": "2F459963242EF020EB214F2B25D1F616E032D4D407C3837A767C6C1C98F4CEBE"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/dfu_service.h",
+      "bytes": 3544,
+      "sha256": "0EC8ECFDBB48B14EAC7702A3D2AE510F496356FE24880FCE5E89BDD9CDD7BDD7"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/ota_service.h",
+      "bytes": 4973,
+      "sha256": "16A6F1FDF9E4BFF277566C0EFF78E71B13D236C87777316662307F89B7993123"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/simple_ble_config.h",
+      "bytes": 2805,
+      "sha256": "E544A218DD81A717933FDD8676543FDED6C5D90902212D1206B74136A23B5D23"
+    },
+    {
+      "path": "firmware/zy100-app/inc/bluetooth/profile/server/simple_ble_service.h",
+      "bytes": 7540,
+      "sha256": "838AD73604AB86C5A05BB97F181AEA73DC6B5613A11C08462FE46FC5E5856587"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/adc_lib.h",
+      "bytes": 1764,
+      "sha256": "9AAFC0ABB748663051DD4BFFE38CFF19A96E16FED3CF70C0B5ABB03355A87789"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/app_define.h",
+      "bytes": 3051,
+      "sha256": "96E7CF7CD8809F3106CB55B54D051F07E8107A8DF18D4822B790474C95AB9E4D"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/app_section.h",
+      "bytes": 4280,
+      "sha256": "43409332507F2777AFA4F7EEA0782E9F4F306FA3A7C1A0C76B081A8C81E015CC"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/cmsis_armcc.h",
+      "bytes": 28898,
+      "sha256": "B94B115BD9877BE0DE9364848BC655522EC6C7F50D21A0A0B234DC73757AB8B6"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/cmsis_compiler.h",
+      "bytes": 9210,
+      "sha256": "7A668173B821A644B84547C7E52C30E536273AD08705B266F2E093BA20131F23"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/cmsis_version.h",
+      "bytes": 1710,
+      "sha256": "340C672715F8E18626129FDC5F2A254FFCF8BD0953855E132F723579C371EEE7"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/core_cm4.h",
+      "bytes": 124366,
+      "sha256": "895ABD461D623F6408EC3C90473448D69E24292F2EAC293E76A859B61784E3E5"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/crc16btx.h",
+      "bytes": 2658,
+      "sha256": "0C7CA6B00AB3A82F61AA23CAF761A80960462D217753D22BE97A3AE37C737987"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/debug_monitor.h",
+      "bytes": 14200,
+      "sha256": "16016957EE8B2DF2D096969C853418BE8FED539AA2322847B98DCB35C74F4459"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/dfu_flash.h",
+      "bytes": 8664,
+      "sha256": "8175E615C5FB611A5E397DA7653799E850FF32BC2647FBF2ECD00F6B666F9B14"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/dlps.h",
+      "bytes": 8033,
+      "sha256": "42AD014FFDA15262F02D4D589BF2DCF41E2D771E39340133FC6569AACFE7A980"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/flash_adv_cfg.h",
+      "bytes": 6877,
+      "sha256": "A8BCC017F502B423B972975828A6CA0DEDFBD8D76B6288830459A27BE56D40DB"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/flash_device.h",
+      "bytes": 15940,
+      "sha256": "B52D084C9D5D4165976FD97F26799C4C9B764949ADC80E5196DAC1E74E903FB0"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/ftl.h",
+      "bytes": 6195,
+      "sha256": "5F71BEA4DF5069065F576DA77FA387A1C57D2FC2E657B335439AEC4574FBEC67"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/hw_aes.h",
+      "bytes": 5523,
+      "sha256": "188338804CCB4CC5A13897248E7CF2004A7D7F2E128A9A9148009C1EECEBAFCD"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/mem_types.h",
+      "bytes": 1384,
+      "sha256": "1A2239EEBC744E559E4DF1338A966A760DD5F471E913A540D5AE2B84038DA245"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/mpu_armv7.h",
+      "bytes": 12105,
+      "sha256": "30F61DB94D400EFBD48FBAB8597FD11A8161BEC6B917D9AC7A61077A9BB2A34E"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/otp.h",
+      "bytes": 10648,
+      "sha256": "84D40CAD12E5F86019A5E9929F271F20262DF65B3F0F5EA5A2AEBEADB26B225B"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/overlay_mgr.h",
+      "bytes": 2595,
+      "sha256": "B9CCD851FC57EFAFC5D71D8E5C3726DADF1A97AB002B3CE1C2A357DCB8852F69"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/patch_header_check.h",
+      "bytes": 15992,
+      "sha256": "C957C692DECEC793F2EF20A2712401A838DE5095F31B3CF80CD337385A379576"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/platform_autoconf.h",
+      "bytes": 2102,
+      "sha256": "A7B39A47A7FB87B65FDB76F71B667B0CF8D37827444074EEEDFF6E764677F629"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/platform_utils.h",
+      "bytes": 3633,
+      "sha256": "F35D6576F82A44D043582D93F28EF3E33523E832C262EC4DBA857AAC2ED40DFE"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/rom_uuid.h",
+      "bytes": 155,
+      "sha256": "187F5D7FFAD2AF6642CAB7202719DCACECC355D880855F5FBACD8766E576EAFB"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/rtl876x.h",
+      "bytes": 81685,
+      "sha256": "7DA5A5B02B08E579E44E8ECA8D9A86CF7B93F34D36F192F47B0817D65879C1BF"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/rtl876x_lib_platform.h",
+      "bytes": 9498,
+      "sha256": "30500051FA2C04578669A78E37533096672B1E8BEC11ED6CCE9F69BEF52A1087"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/sha256.h",
+      "bytes": 5682,
+      "sha256": "52625D26426B50EC3B2C6EABE97D4B787AE8EEC855544C24904A47F302E662BA"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/system_rtl876x.h",
+      "bytes": 7485,
+      "sha256": "5B52E4851174E94398A486CEFC55516C5F06EAAD0CE3143ACFCF84C75D261489"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/test_mode.h",
+      "bytes": 5449,
+      "sha256": "A2196CF0747AB8F1402F596ED4AECA3E0005742F53C481097833C5A3EBCD8910"
+    },
+    {
+      "path": "firmware/zy100-app/inc/platform/trace.h",
+      "bytes": 134725,
+      "sha256": "254436985953CC0CBBC56CB2A78154CE3F9035E5CCD27E4BF0F7DFA2C70A1EED"
+    },
+    {
+      "path": "firmware/zy100-app/mem_config.h",
+      "bytes": 3508,
+      "sha256": "2CD113C3566D7F9438FDCF23C4311F3A84220FC518663989C9116F1A7A683A7A"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/config/version.h",
+      "bytes": 1145,
+      "sha256": "B0F6023AFB86645EC3970413B2D4E2E72FE9CD6DCF4F5C77871C20A595806B1B"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/inc/zy100_stress_source.h",
+      "bytes": 1897,
+      "sha256": "8191065AC340438E86FED40B7E154D360655C0469CE78618C963CC07F8E09DCC"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/src/zy100_online_stress.c",
+      "bytes": 17106,
+      "sha256": "8E6D0107A41813FBA7EDC8E7F44DFB68960BAA141A12461A95E6D5B13CE927D8"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/src/zy100_stress_diag.c",
+      "bytes": 16297,
+      "sha256": "AF74FC4F71DF4E21B1EE51E10A7D98A9D95E58463AC82569BD44D04CDF5C5176"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/src/zy100_stress_source.c",
+      "bytes": 4688,
+      "sha256": "5E325C98EF11819F1EFBBF28CCD7C8CECE5AB070E7C9F82C50F5C45A5CC5C3AE"
+    },
+    {
+      "path": "firmware/zy100-app/otp_config.h",
+      "bytes": 5363,
+      "sha256": "44C6CBDC02AC0BC78EE79B52DF2CDC724D7BE310192D5661962528E3A9C25494"
+    },
+    {
+      "path": "firmware/zy100-app/src/ble/profile/server/ota_service.c",
+      "bytes": 28184,
+      "sha256": "D0D34A71913D7C8465DD5DFF3B2C615F19649C10A4E64BBA23003816512B5763"
+    },
+    {
+      "path": "firmware/zy100-app/src/ble/profile/server/simple_ble_service.c",
+      "bytes": 24154,
+      "sha256": "47C588C7F9E74CD920DB273AEFFDC86CA913E286562F481416B0ACCEF61829ED"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_application.c",
+      "bytes": 33946,
+      "sha256": "FFE1AB1DA36C9C541F95F9A000D0CB544CA1EC177EAD5D94BCC5A3967D7E7CEC"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_application.h",
+      "bytes": 1032,
+      "sha256": "8290B95D5AD73472F2BB55F662AA1B26C997648C14F0A5660F7E968F5F07E042"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_flash.c",
+      "bytes": 36438,
+      "sha256": "8899953BCC0DFD7655B553D2E839B70A6206E5160764E9E8F6BCA152714860E5"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_main.c",
+      "bytes": 20409,
+      "sha256": "15C3B71B65A0040D875CEA6B5917E7DA79C84A445BE13D102EA823D25F443D61"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_main.h",
+      "bytes": 1211,
+      "sha256": "E4BE56187FD24201A3738A2131106E14831702454596DA28D82FD6BF45BFCA26"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_power_guard.c",
+      "bytes": 7157,
+      "sha256": "5FB2A556D4DF778A0B1F0CEB1D08EBB391717B66F2C97C62FB434C1C83409F8D"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_power_guard.h",
+      "bytes": 1149,
+      "sha256": "D567D3C610AF4A3DCE6566C33A11F4EDD35E186B975DB78E2395A2C4A6AE9C24"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_service.c",
+      "bytes": 60163,
+      "sha256": "AC4A0DDD5BE668CB31C9772CD64D18982EDD5DDAED42FB8D34513C7A1643EEF7"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_task.c",
+      "bytes": 3730,
+      "sha256": "CECA2747DDF0FF1941400FE4F33EE2718D5AC5B0931630D47CC20B2AF54C6E9F"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_task.h",
+      "bytes": 436,
+      "sha256": "8138452FDC44001AB8041C91532737E868AED1C0F172FF3AEE3EFCCEFB03ADF6"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_watchdog.c",
+      "bytes": 8876,
+      "sha256": "6AB19E18240D97DC13288194B877AC0A352E4EB7029434804A4D4C0A3C0555C9"
+    },
+    {
+      "path": "firmware/zy100-app/src/dfu/dfu_watchdog.h",
+      "bytes": 1451,
+      "sha256": "CF44CF231AA509764DBB91D76CF460397ABA3520D3964A7286CCCF98162197C0"
+    },
+    {
+      "path": "firmware/zy100-app/src/mcu/rtl876x/system_rtl876x.c",
+      "bytes": 41178,
+      "sha256": "279F80831C948D93C6C2BD0240AF7D33214991F533CDC390AFD4D4893CC2BCDB"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/algo/zy100_offline_feature_v2.c",
+      "bytes": 30803,
+      "sha256": "06F9D502CBBE61C2A5CFE3591167FB835D4C6B2D0A540C8D3A647C4430FEDFCE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/algo/zy100_offline_feature_v2.h",
+      "bytes": 4002,
+      "sha256": "F12B6DF2B46A1B7D01AE292C323735EE4E8B7857DE0C22CAE232D72842876358"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/ancs.c",
+      "bytes": 26216,
+      "sha256": "35556803381CEE6CE6589AB7A2BBF759ADF50E285F3CDC24AA1A0AD96D68E099"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_battery_policy.c",
+      "bytes": 34789,
+      "sha256": "30E8E06E2ED0211777B343E9673F39F609393468EFC680C8E324CB66E9DEF043"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_battery_policy.h",
+      "bytes": 3617,
+      "sha256": "55919DEE70FD05CC9C8D3AB84DC281366E790744780A400252C9285737EA7E7A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_capture_observer.c",
+      "bytes": 10223,
+      "sha256": "08E310F9FE73C1329ECF7E221D2C6BD5B3FEC4E46E78E3EBDDA6F2994009DEE7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_capture_observer.h",
+      "bytes": 1558,
+      "sha256": "6AFB3B226F5DBBF212549B1B8CF4499926D8E63CF4622C6DDFE329174A74C7A8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_ci_state.c",
+      "bytes": 60564,
+      "sha256": "C1AF037E3CE2EDE47350917C6638C136100D2B5004E38D8802809AABF7337B14"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_ci_state.h",
+      "bytes": 7834,
+      "sha256": "953346A7A37E7E053EE49090286704239CB026A5431D330FA3BB85D45BFCD2D5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_conn_param_mgr.c",
+      "bytes": 49335,
+      "sha256": "77826EFE40C3406F6688E51CDC109A5EAE155D3734B181CD61C5B6E053BE4B1C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_conn_param_mgr.h",
+      "bytes": 2382,
+      "sha256": "BC00EEF6D7F0D3B92C9F50562A3D2686655F9F440910C5021F0E3B7D9B49FCF9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_conn_param_mgr_port.h",
+      "bytes": 616,
+      "sha256": "3FBFF34563050CBD3FA61C91664F5CA77E59372F550FF24DD2F21743A3408A4E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_conn_policy.c",
+      "bytes": 52571,
+      "sha256": "B12BDE0A245DEDCADACBDB90DFEFADA9D6ED6B747049A5EA89AC67935C8A85ED"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_conn_policy.h",
+      "bytes": 1301,
+      "sha256": "72ED1670B718D0102F215BADEC9317B7E9AD0C45E95BD264A037CC89EC2F9099"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_connection_bootstrap.c",
+      "bytes": 21026,
+      "sha256": "E660BB866F2FD8FAB7D2E9C89AD62137620BDBB4DD3778E6F67961E8DAC54E15"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_connection_bootstrap.h",
+      "bytes": 3178,
+      "sha256": "4E2D863A4F94DF0F3B96DDAA479EB3AC48BCB036CE0E45749F9EDDC4CBB651CE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_ctrl_dispatcher.c",
+      "bytes": 75321,
+      "sha256": "B3AE8841DC5BC89B32B90C3D78346AF0881C7E20D6923BB9833AE7884F0A6E51"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_ctrl_dispatcher.h",
+      "bytes": 556,
+      "sha256": "1F25669EDB0047AC0825FF6E1748ABB28E13E4C6569D0FF1876847476928EC7C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_ctrl_dispatcher_port.h",
+      "bytes": 568,
+      "sha256": "EF8E7F4ACD1D43FD58146759ACAA6F9488FC49C35091329ADCB519FC04B85376"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_export_controller.c",
+      "bytes": 99096,
+      "sha256": "2D24A27D9C538B250C92E75C3D5C1B0E18E998EABDCDB8AF4B8737DA5D6462E7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_export_controller.h",
+      "bytes": 2521,
+      "sha256": "B1093C676725C51FB672E3B8BE3A355B057C321B34E83A30E63FB1AE266D88FE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_export_perf.c",
+      "bytes": 52201,
+      "sha256": "95177F216CB464C63A16A022B61522FB0DA83E9E00C5CEE8341B3878E50FD42A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_export_perf.h",
+      "bytes": 5556,
+      "sha256": "1E4AFB7756A28E87F1EF1A54444D57D48D571FC4816F3515D3018EC209075EE3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_export_port.h",
+      "bytes": 2720,
+      "sha256": "E5E3AC383095025FF45D13DB0B67724805CD634E9DCA980FAD7ECC95A2571FF5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_link_trace.c",
+      "bytes": 10335,
+      "sha256": "55686FFEB9D91CA238AAA4AAC990A891AB598E4799EFA375F1686E665E5ECA04"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_link_trace.h",
+      "bytes": 2147,
+      "sha256": "39DAF1F42C04271CC2FEEA2DC78B088A08AA2A07100CEEFB2163EA075C4ED3CE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_offline_v2_sync.c",
+      "bytes": 73026,
+      "sha256": "BD847C32668AB950DE234D0DFC5B10E020D265CEA8C0761DCC6045335A1374A5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_offline_v2_sync.h",
+      "bytes": 2442,
+      "sha256": "869A33F0291E73634D3D5253E715E0939F3ECB69950212EA03124F77763C3592"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_power_policy.c",
+      "bytes": 51403,
+      "sha256": "8663DC18C52A63E76B6360118208A3C0A3F24BA4A4A97231155E5B7EA76633BF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_power_policy.h",
+      "bytes": 2204,
+      "sha256": "E27C633200F18801137585C750C10EC04DD9F4FC37D2D4D4E43B76E591B48CA9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_profile_router.c",
+      "bytes": 34401,
+      "sha256": "CB7790F733768D590D98571331D5962ADC45E401F241B3A56DEE948C9090FD66"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_profile_router.h",
+      "bytes": 869,
+      "sha256": "8A5E366CE738C70951B62336CC1B8476E0752BFCE483D50F420F755591219974"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_profile_router_port.h",
+      "bytes": 328,
+      "sha256": "53C8E075E069A2210C98E0910CF1AD137F5004AA4098A5A7DAE145E6BF51DCFD"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_sensor_stream.c",
+      "bytes": 15390,
+      "sha256": "19AAAE1048A38689204F93AE6BBB5FCC5B966F4F7664CE21F5D9029B7DDB7096"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_sensor_stream.h",
+      "bytes": 2462,
+      "sha256": "B5B73F46EC48A34A6711BBEB89E61A82F9829E322A26873740E2264E3348A47F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_sensor_stream_port.h",
+      "bytes": 848,
+      "sha256": "EE26BA7C7CB546E0C40F84CDB969A5EE78A4DB0A266CA85339F7D9EABDC43856"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_training_recovery.c",
+      "bytes": 3219,
+      "sha256": "EDB9AAFD8BB4BA33704D6FCAFBB2791EC8027BD5757B926CDFC04F1491F857A1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ble_training_recovery.h",
+      "bytes": 765,
+      "sha256": "6355BC54CC828A08945612F291D98665A605E715EB885F9EC0BD447F4753BA31"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_button.c",
+      "bytes": 22242,
+      "sha256": "6BA695EE29D31CCD7ACC8871E4A1A35D00A4943AACFD2944F4DCE29BBE1B594C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_button.h",
+      "bytes": 3987,
+      "sha256": "792BF3C7FCBD09B75E441131AC32FEFD8885666CB2B5C92EE745E73B5251E8CE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_charge_sleep_ui.h",
+      "bytes": 2067,
+      "sha256": "BEA2C794AF332544F233E547AAB72282178BE8C01E959915DD0B196723CBB959"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_device_pairing.c",
+      "bytes": 33753,
+      "sha256": "85475B9EC75DF18B1DD4D4638FA59F8039DD649D50C220CE5C659843FBCFA4B2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_device_pairing.h",
+      "bytes": 3631,
+      "sha256": "39A5F5EB2592C46F6C0B07175AC2A0D9C92E54F47A2DFC6F753F1F0DB428BF5C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ota_controller.c",
+      "bytes": 27153,
+      "sha256": "0EB6EBEB94DCD7093E66C23D984F73C84A71BDCBC2BBC8B7AFAD5405905CF17B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ota_controller.h",
+      "bytes": 1043,
+      "sha256": "EA6B161ED648DB0786E76D835CF0B16FA36726934A87F223243B79A44DB4779C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ota_controller_port.h",
+      "bytes": 1480,
+      "sha256": "6F0138143E03F29BBA3352C58A7102843A3CEB87D6CA0E06DC8D8E84D8B7899A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_power_manager.c",
+      "bytes": 2757,
+      "sha256": "F5C53491A558A636CA1861ADA08D8BF8438F039DC894B09EB2AE6AD2D14564D9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_power_manager.h",
+      "bytes": 2019,
+      "sha256": "9C8DD4558A76D0ECCFF332FC0A535B55932647E9693900601E64F3325C55744C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_power_sequence.h",
+      "bytes": 1432,
+      "sha256": "2DDAE3F8BCC3FF3152408158534E4981B4CE5736F44DC2FE5BCFFFE0211458B8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_shutdown_transaction.c",
+      "bytes": 2888,
+      "sha256": "6FF2072FF50235D234E60483D6070306DCCA83EAE04006DD5A7F68993B98440D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_shutdown_transaction.h",
+      "bytes": 3472,
+      "sha256": "CBF2C3B50C8223EB43600CE2B2D18CF10A52636F7B8C761B73B328C79CA51E99"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_standby_port.h",
+      "bytes": 2665,
+      "sha256": "276395BCCB2544FA020AD46710802FAE8AFDDB44E7E51F440068BDEA07CC629E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_standby_transaction.c",
+      "bytes": 9789,
+      "sha256": "F401C0730DEAA2F10998A4CC3EBA226504452F93568BDBC02DB33FB317F19B84"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_standby_transaction.h",
+      "bytes": 2433,
+      "sha256": "B664D8AADDD75E5F58D466ED4FC285CF287A860BED94DCABB8E3F0A4F8BCA836"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_training_context.c",
+      "bytes": 6580,
+      "sha256": "C94535D5A33A279C42DE86F65D7DEEB2F4658B3F56E43F23EE6878E0860DBC5C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_training_context.h",
+      "bytes": 1314,
+      "sha256": "DF1CA0B3B2CBF9592C137D4C7169B3A4F335ABF94F5516E693DAA1D7CA56713E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ui_policy.c",
+      "bytes": 5376,
+      "sha256": "5E8FBD57CAEE669769671A05559F0B685E0FCF0DE42FCCFED0993DA154CAD44E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_ui_policy.h",
+      "bytes": 2404,
+      "sha256": "6FA2C570D1D3A7B713EC4676A34BF33CF750D4EEBDF2033F3F7957359E125480"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_user_reset.c",
+      "bytes": 7402,
+      "sha256": "0323757EE28FDBB98C30A15F826A5E089C53FE5996ED5ED942745641B50661FA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/app_user_reset.h",
+      "bytes": 1552,
+      "sha256": "7EE5CC823D269773D9F0346367196B56F8CF6878F75003548723438A516A2C98"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/zy100_offline_v2_ui.c",
+      "bytes": 14104,
+      "sha256": "6F147D592E207916A6107E9D8B0CA2D9143A071A264C7379D8E9483C35413EFB"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/zy100_offline_v2_ui.h",
+      "bytes": 1866,
+      "sha256": "682B21FF25D2D1F8498EEFCF4043E2491B96DF02754A36533812BF716AB0645C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/zy100_online_ui.c",
+      "bytes": 8752,
+      "sha256": "2029F75DA4241A8C5482A39BF0C0D6580A1D69C87AE532290F7F04044B86631A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app/zy100_online_ui.h",
+      "bytes": 713,
+      "sha256": "F53090ED818E22EFD91537EC36C84A67F11E07B5664CF6921BB8804601D1BDFA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_build_config.h",
+      "bytes": 2367,
+      "sha256": "695575D75BD4E46D57A6ECD68286DAFB20D8AD56D586A39468365D78F4F32AAC"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_factory/factory_boot_gate.c",
+      "bytes": 11366,
+      "sha256": "256CDE67B10187F26C14A3A06EC7D7E59F2A7D2A7CF8F44A16224EEC2318CC6E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_factory/factory_boot_gate.h",
+      "bytes": 740,
+      "sha256": "98E8AD1668B0BF6662E24353C7DCBAAA8DDFAEEEBE350788DFD7FC42B7C9629E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_factory/factory_mfg.h",
+      "bytes": 5418,
+      "sha256": "9B79E8C0BC731F1B200751D7F5090B9A6D61C4C78AE6DB60D7EE30A486936E2C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_factory/factory_p2_contract.h",
+      "bytes": 1572,
+      "sha256": "08A531994E5592B2ED2ADA2CC433D05DAAA8F3CAA9467222D4409888D258E33B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_flags.h",
+      "bytes": 123580,
+      "sha256": "17ECEF1EF1E59F45AA1128EFCDB1E00797420F5FDA2BD05885BAD602C7DFF5A6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_protocol.c",
+      "bytes": 18028,
+      "sha256": "B0022CB80F32FBBCE3CF4EF723D94DABA8CAB0949934B50F303509E2F880E081"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_protocol.h",
+      "bytes": 3428,
+      "sha256": "6FCB5636CA212B73F9B4CDB6B92F2E1215369437E69B0D311FFCBD1C1058C4D8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_record.h",
+      "bytes": 9558,
+      "sha256": "9C7A79CD0B1D1FC294D8CE65F2CACF7D12B9DAAE7A35FCC5F13B1B39BE848E6A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_rules.c",
+      "bytes": 3594,
+      "sha256": "004FC4812DDEA4D48BA1CF1425D2D85139BE2C59E3F3CBA93272D2ECC26B66F1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_rules.h",
+      "bytes": 764,
+      "sha256": "4FD1A3C675215F80AFA5D141B2F923966F37375F59518D3DCFD5E80E825CAA97"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_store.c",
+      "bytes": 36296,
+      "sha256": "42951ABF4515779B7437195DF0C9D7A398C2E685B665EB832F9DBD5373F3394C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mfg/zp_mfg_store.h",
+      "bytes": 2758,
+      "sha256": "5ED8E16D5C1DEFAF48E9B3CE5C969FD985E87FA15B3376B5B659D5AB62038141"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_mode_config.h",
+      "bytes": 403,
+      "sha256": "36C0F2715DE299438C152E454E5B25A3CCFD0C29544D087E77ED22FADF4C384E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_task.c",
+      "bytes": 1239219,
+      "sha256": "EBAF8A3E33AFCBDB68229E6506FCF9481BF0CA1DAE2B6CB1A321B842618F4D47"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/app_task.h",
+      "bytes": 11172,
+      "sha256": "6D6E10590C37AC251C0FD73141DB4571775F1A3654C228C4715B2A692F10576F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_battery_adc.c",
+      "bytes": 8016,
+      "sha256": "9B8658EB64CEC182EDEAD9A36AE9B1BAF62627F8C1250302AC73D949573D6C73"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_battery_adc.h",
+      "bytes": 1366,
+      "sha256": "8317E3755E467F25AE2F1DAC6A4F6F1ABDAAD4130EC236992019DC4E9AEFC41E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_capture_timebase.c",
+      "bytes": 2200,
+      "sha256": "18CE813C3853E087C86AF2870D38747B86B2629C1F3E2E68054AC42759D01CE8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_capture_timebase.h",
+      "bytes": 554,
+      "sha256": "F8650AFA54BD411CD143F0303A31B814AF31BA9E1DD6793E34528F2815AA6B5F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_led_power.c",
+      "bytes": 8776,
+      "sha256": "6E5DAC6CB779331AB347CB96B5BB830B7EDB2C002E97618425806D66AD692B8F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_led_power.h",
+      "bytes": 1236,
+      "sha256": "4E8DBB141202A01F5E4D629D7B6573B8F78B2B39AAB3E9026EF2719A68496757"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_power_status.c",
+      "bytes": 4226,
+      "sha256": "3A8B0754F77862A7B79B159E2E2BBCC38D7D854F74EEF96043C8BE5345EB849F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_power_status.h",
+      "bytes": 1328,
+      "sha256": "A8BCBBBF25046614AA410C8E999FC815264893BC2001D10C0318EB6CA003A724"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_shared_spi.c",
+      "bytes": 6413,
+      "sha256": "DA64EE008324993A118F1D4890895A31BE2E4DD75DAE7F1E1276F67C73841CB5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/bsp_shared_spi.h",
+      "bytes": 1603,
+      "sha256": "20AF226084460EC3A6A97DADF91E37E2597ED8F70AC8C62FBEA48475B7DB9D36"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/imu_board_pinmap.h",
+      "bytes": 3097,
+      "sha256": "3DE31AF06B87C6EAB39C9903434971E505B27BC35791522B18F7BF420C444C5E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/imu_bsp.c",
+      "bytes": 65587,
+      "sha256": "DD2446399C3027573E80AE0A4895338370D166717A977CA1B0F6320EA5B74C44"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/imu_bsp.h",
+      "bytes": 5063,
+      "sha256": "4A4214ED8B503CB3804CDD1F373954221D0BF3B24E5933BF6C8C08962C2C96A3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/led_board_pinmap.h",
+      "bytes": 3096,
+      "sha256": "C10A2770CFC1600BB31BC0189B9BBECBE1D28AD7FB2890E2AECD9346574D9AF1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/mag_board_pinmap.h",
+      "bytes": 1263,
+      "sha256": "3293825576A4DCB642E0FBDAFCE005DA6FA4BF6A9C7AD159CAD534793CD727C6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/mag_bsp.c",
+      "bytes": 8264,
+      "sha256": "7D6D2970F0ED8AF092D481601C96B70BFD237C13F7B4EBAF10D2804E4C014CFB"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/bsp/mag_bsp.h",
+      "bytes": 1050,
+      "sha256": "5E1FD974F7DD5DFC07BEABC62815C33AA35AE01BA40D783DC4A946D087080D3D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/charge_voltage_sample.h",
+      "bytes": 321,
+      "sha256": "3E4CA0A17CE16C264A023F92BF986F08AA39976FC44F92BD609D1778D01B746D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/imu_common.h",
+      "bytes": 2515,
+      "sha256": "2AEE4D46A0C0C3D0858B69A91CF7D592EE01530E4E48FF1BFBB9E043329C92A0"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/mag_common.h",
+      "bytes": 996,
+      "sha256": "B4B94A6C636398CB31A6F7CEA73C9727C3F0C74014D30B8AEBE204527C180251"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/zy100_byteorder.c",
+      "bytes": 1525,
+      "sha256": "501BBC5D417224C5BE18E2579F1673AF523F0357A266ACFB6E62EE406C66A1D6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/zy100_byteorder.h",
+      "bytes": 2160,
+      "sha256": "5775BF4A203525D916DAD5C8B61BF85A59BCBA1AAC9FADCF23B8A771FBBB8051"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/zy100_internal_flash_layout.h",
+      "bytes": 5254,
+      "sha256": "3D16C0BF6A3CD960BD08C342B907C16E6B5D1B2CFD5EE0053C870A78D73E801B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/common/zy100_offline_v2_contract.h",
+      "bytes": 2314,
+      "sha256": "DE1091F489BB0FFF732EC9AEC1D21A873FB27484712F9AE920B9622ED2A8E2D7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/drv_internal_flash.c",
+      "bytes": 8469,
+      "sha256": "051196D91993900BC56068B6AE0C96DB117D43173AC539509A215DA3363EE2A1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/drv_internal_flash.h",
+      "bytes": 1326,
+      "sha256": "77E2BCC430AC55C0BD7AC860A23D32172D022CED2BFACEE55BFD75445B0C99E1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/drv_rgb_led.c",
+      "bytes": 18506,
+      "sha256": "0F4C971BE089ABB6F7FFC4C16B38DB92F4D89CDF13139610C25EBB0AF8621CF9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/drv_rgb_led.h",
+      "bytes": 1447,
+      "sha256": "823C6E833D8913B653BCDA5CC3A21E4F50FE9DE4CC2F050DFB5013CBB75FBB6D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/gd25q32e_spi.c",
+      "bytes": 23212,
+      "sha256": "6C7E46522DDCB716763198FDB42D05DF087FE264C0F613D1CC10DE3CBE10D1DE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/gd25q32e_spi.h",
+      "bytes": 2668,
+      "sha256": "8C82A80826F7629399CBA771FDCAAC80EB6D755F2077348200D4A17972647260"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_driver.c",
+      "bytes": 127486,
+      "sha256": "A48B37257E54A07DBEDCA4E97F37E71633C6DFACC58FFB5B605C39E5AAC09EA4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_driver.h",
+      "bytes": 7977,
+      "sha256": "3ACFD0DB62500002606DAEE27ABF16529AF3FD2128C680C5B8819E4034A53EAA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_io_diag.h",
+      "bytes": 442,
+      "sha256": "4AE93648DAD4D7DC230D183CA839EEB08EBC88CBEF2E6B778BFACD7C5BE97359"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_reg.h",
+      "bytes": 12582,
+      "sha256": "FADAA8EDC14EA44D0EFCA5F5E89956A2C3F24B09C260CB78FAC01F997E9BF5EB"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_spi.c",
+      "bytes": 25146,
+      "sha256": "C6B79DCA1E7A1596F893AE487A98EF852FA2CC2976530EBF0F907A0DF9F0C8E4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/icm53611_spi.h",
+      "bytes": 2723,
+      "sha256": "31C68885708FC2DBC85774B8DAB817BB3BC7DDA17A9A2D14C9B79DD5D761925E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/mmc5603.c",
+      "bytes": 22016,
+      "sha256": "2AC5E8937E0DBE5296EE861887F922E62B7D9F542B5D175542088905C505A3EA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/mmc5603.h",
+      "bytes": 3049,
+      "sha256": "680F334F3AAF4977E64E7B11A1BF7DC15F6EEB68587BF65A72BFCE498FA9D125"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/mmc5603_i2c.c",
+      "bytes": 2413,
+      "sha256": "61DAE9CD715F0242EDEBC3837045F58DFD4AD1A7A6AC143DC7D846A2B86A0C5B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/mmc5603_i2c.h",
+      "bytes": 591,
+      "sha256": "2D511F3D2C5F17311D1D876E0D91BF67427C1541D3CD7F1731A9088E48311666"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/mmc5603_reg.h",
+      "bytes": 2761,
+      "sha256": "6987F5FE1B894E89F0AC089E629D7EA7CD87F630781992A95B9782FE5591F403"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/spi_bus_owner.c",
+      "bytes": 567,
+      "sha256": "4B96F24070FCA51A46E38F8AE813BD4282328F5B2675BE55031E8ECF5EFC60B6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/spi_bus_owner.h",
+      "bytes": 713,
+      "sha256": "DC452BBA09D44831620D247EBC0BFD5E1CCC8CD579191E0E3222D8E3C2AF0791"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/yhm2712_acmd.c",
+      "bytes": 115517,
+      "sha256": "4787FE5C46A5DE2CCB79F7D25E0DA9305F0EBFF7366ED37839505EC7F9D89C2E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/yhm2712_acmd.h",
+      "bytes": 15884,
+      "sha256": "7B018DD9DAD3D84887926DCC39141AC543B7B56255CB3B1AF179E0ACAB6DA2F7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/yhm2712_hw_config.h",
+      "bytes": 2798,
+      "sha256": "B740CBA7DFA8EDA341780CC8CD63A997F209BE665F3660A8CA8AD7A6E9BCEA8B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/driver/yhm2712_transport_10006.inc",
+      "bytes": 30611,
+      "sha256": "0AAE6178D3830776497C6AC6ADFBDF4B10C6F12638A63A4BACAF0638B451C64D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/lp_dlps_helper.c",
+      "bytes": 59720,
+      "sha256": "2CD33F7CC4636BE315B7C429DAD7BDDE1B5898B0C1E5ADC8A15431DF5E827E49"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/lp_dlps_helper.h",
+      "bytes": 2834,
+      "sha256": "7919CF5BF6E98E412EDBF447F8A3B53416728FCF9A816E8C237B099C5982F905"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/main.c",
+      "bytes": 55658,
+      "sha256": "D99C7EAB9E6F42F78EC29F9164515ADC4C3F809EA38E2CF03979EE5F651CBCA4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/peripheral_app.c",
+      "bytes": 58679,
+      "sha256": "C2879574AA765A463F3BD5B52931FBC2B4323CC6704DBFE6AE10C5450E1F99A4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/peripheral_app.h",
+      "bytes": 4280,
+      "sha256": "E16FC999AE621C3E7E03E023AE5066F060793D87895925BCAE5115C196205C78"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/app_ble_notify_tracker.c",
+      "bytes": 1433,
+      "sha256": "13791FB96F9FE7B7CD6AF529348702F1A507B8366EF7B255C4EA4E71870C6226"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/app_ble_notify_tracker.h",
+      "bytes": 690,
+      "sha256": "D09A0055826D394C9613149EB9C08DD0CBAAC79885E56BD73CF3E12962B1761A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_adc.c",
+      "bytes": 74689,
+      "sha256": "A39091408425F8A41CBA3A6B69EDAA3FD6EEC2893C395093EB7E0ADE4D627F43"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_adc.h",
+      "bytes": 4465,
+      "sha256": "F49A1DEA221AC6A3F43A7A1B89C3E7EC7D0E6A8CB52FBD5A46D1BD27B7A9EB8E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_adc_guard.c",
+      "bytes": 20387,
+      "sha256": "AB9C4854F45A8BEDAB3CED89892AEEC0C5C74E6B417C7B20DCB47DD3B6A79D88"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_adc_guard.h",
+      "bytes": 3200,
+      "sha256": "69169CEAE477AF00087AF51491EE3622112CF15D0C85B74750B431736FD3F2CA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_low_guard.c",
+      "bytes": 13505,
+      "sha256": "89125446AB79F094DAB87A4054FFC6F4532DA85F350C24E32F7B31F29D3C0F27"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_low_guard.h",
+      "bytes": 1418,
+      "sha256": "A2A460974CE1BB4F0EA3E23CBD730A828E9B7A8E831D260AF7D0C6391F33B78D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/battery_policy.h",
+      "bytes": 261,
+      "sha256": "07C2C19E1ED3BFD4BF334749F8934038D839A977B00457E7D501941996B2F411"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/ble_ota_cmd_protocol.c",
+      "bytes": 1066,
+      "sha256": "32E83D2D901F8C493C366D964F232810635C7D872ABE3970E9F0930724EFEA3F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/ble_ota_cmd_protocol.h",
+      "bytes": 431,
+      "sha256": "17C20B87E93F22440771C6A01EB71338F67133F67167685224EC9E376069CE97"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/external_flash_capture.c",
+      "bytes": 129351,
+      "sha256": "4741ABBCEB4ABB33B08430E5A7CB440016FFA314B20B8F31E479ACB0F497DAD4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/external_flash_capture.h",
+      "bytes": 8328,
+      "sha256": "60FC86F90242BA675DD4EF047DB91802E6A2A5FF2615DCE705ACE23A93213C68"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_capture_service.c",
+      "bytes": 4414,
+      "sha256": "76D61F9E051C61DC1FC675261271B9A85D3726D4872E0E6BE5389E15DF1FAD6F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_capture_service.h",
+      "bytes": 2353,
+      "sha256": "9F86754397F88A3A8E604520B96EF74BAB3FB3E6F5963405EED9DD1C4358495B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_fifo_drain_test.c",
+      "bytes": 630935,
+      "sha256": "72AEB8E2F2489784AD304070616B569E5BD08C80852B8E7529897B08D245BD18"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_fifo_drain_test.h",
+      "bytes": 6160,
+      "sha256": "B9230B1F6976A4C87FE7A4FBF16B20E2BF5C01A28667990927F04531D64A9C4F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_marker_detector.c",
+      "bytes": 10148,
+      "sha256": "A95B6AAFD3515B92DB91EA5DEEC1BC86F0EDD84975C4A9AAB5BF21E2EA53B3BA"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_marker_detector.h",
+      "bytes": 1589,
+      "sha256": "29F52F873BAC49BEF1B0BFBF250CF06C17056E66F410813D8527CF3158D8362E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_motion_metrics.c",
+      "bytes": 5492,
+      "sha256": "E32134DC5FEBC72821A46C4E444D6D56C6E48B1178BB7633CB80F0CC2A0C3ADB"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_motion_metrics.h",
+      "bytes": 1685,
+      "sha256": "CCB89D9FFE70D45667BF3382154BBE2688185C208687F9876B6276F4EEB814B2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_pre_trigger_marker.h",
+      "bytes": 2567,
+      "sha256": "85C6DCE5482A6D1B6DBBC108AEAB416D5ADB62E2AEEB9C9DB24C7ACB1AF0B22B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_rt_marker.c",
+      "bytes": 16811,
+      "sha256": "A249E3694275C0C0A0E5DD890AF8C973F6D259FD200E0F29D6CE9A5401282F50"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_rt_marker.h",
+      "bytes": 1436,
+      "sha256": "E293B9002D1C302BED068F1B7B33C00E222F743593C48A7719F743CF8AB6D301"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_sample_marker.h",
+      "bytes": 3377,
+      "sha256": "1F1237DD19280165451A15F70D079AC703229120BC5A871BA8082582A9F71E1F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_swing_detector.c",
+      "bytes": 28606,
+      "sha256": "70AB4377F88EC2A9BB26068DEF2E2E5E72DE8B6CEFB1E68C81EFEB9DD6AF6A6C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_swing_detector.h",
+      "bytes": 2705,
+      "sha256": "18086A9B6CDBBBDBB6D6A95396D379CAD077C82D5CB68F5CE82D6BB55E12BC2A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_wom_irq.h",
+      "bytes": 3337,
+      "sha256": "B9D177F053941ADA701F1DC0D92236EB5339623DDFC60210E4FCE32BEAD09F75"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/imu_wom_irq_config.h",
+      "bytes": 1247,
+      "sha256": "9BFD5C8A6D2135E8500B852CF2BCBE5F8B2EA10315E1076DB8C286CA2898762D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/mag_capture_service.c",
+      "bytes": 8714,
+      "sha256": "707C815BDF0C4D18F20EC76854EF317F8D126503C6D618CFC3C7453A347E2794"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/mag_capture_service.h",
+      "bytes": 2832,
+      "sha256": "7E622B6B9B8D88638B5DC17D92984EFE38F6391F67358090B8E06F78DCF82597"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/ois_aba_v0_sram_capture.h",
+      "bytes": 5039,
+      "sha256": "88248D9C02227DFCAC238AA9D8552A86E073F6ED0D6889FEBE204509C0249EF3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/power_diag.c",
+      "bytes": 9436,
+      "sha256": "5A5DB9EE82A7211BD8D75A49059E3B836CAA81B50149D80B6F3EE762903F9E66"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/power_diag.h",
+      "bytes": 3398,
+      "sha256": "9AF37F9AF8EEF71CF35CCDEFE4ACEBA17E44CA02E116898FB254F98198318DBD"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/sensor_sample.h",
+      "bytes": 676,
+      "sha256": "716E3D2CA02B9A1425C08734213D6BC390A6091918D869AF7889006810248348"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_app_watchdog.c",
+      "bytes": 6062,
+      "sha256": "57A0413C5D0EBE61D201BE61FAE157427D2697A24D8D22FE608D172BB77E4C05"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_app_watchdog.h",
+      "bytes": 596,
+      "sha256": "7C1C83CB3E2DD5CA9BF532E8E065EF2D276F219ABE7B95692886E5F7D113F7DF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_charge_status.c",
+      "bytes": 3134,
+      "sha256": "C4297D0EDEEEE24715505607367AACE1633B2CDCAEDBED94AE5674135B4AC601"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_charge_status.h",
+      "bytes": 986,
+      "sha256": "E97ABDFC458A9D35EFF588D2E3213468860A80366FF19A16147A505E751E5AF2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_owner.c",
+      "bytes": 59358,
+      "sha256": "FB2B6FD46F06B44051E459A477A5D36E27235352744589380DAB79388A58A8A4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_owner.h",
+      "bytes": 7177,
+      "sha256": "AE9AC5498D2C043110743CA41525B47CB17AC5560052623EC5ADF32D30742713"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_pattern.c",
+      "bytes": 24596,
+      "sha256": "EB3CD79F33C7E86C3EA1BF41941864B6193208FB19523816B5AA7B44606ADB05"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_pattern.h",
+      "bytes": 1581,
+      "sha256": "19305790627ED22254434B4194F7C117738AC1448C54B2402E2ED48ECD7E8757"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_task.c",
+      "bytes": 44736,
+      "sha256": "26F1F42D36F2007D555775B20E3A56CD3211F2249A479C432D5B61BD2704F386"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_led_task.h",
+      "bytes": 3664,
+      "sha256": "74B2BB53610A2B4677A3EA3CAA106E192F75462E77B3F545BAC0C4DB3FDF912B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_yhm2712_charge.c",
+      "bytes": 75708,
+      "sha256": "F6A7F02D80B22F11909F9B34040875264B9C1BE42C0081A3039B995A6336BD79"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_yhm2712_charge.h",
+      "bytes": 3671,
+      "sha256": "F4E673561EA51E2285DFB52B6C8CDB6A0AD1240272024B8F70E1F644ACB114DF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_yhm_startup.c",
+      "bytes": 4164,
+      "sha256": "A5AB239985FB0A56BF88E910D2C7E7D7D849C64512E82B21B4A1D632141D3EF3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/svc_yhm_startup.h",
+      "bytes": 1165,
+      "sha256": "36BB56B5927D5595DC56F8ED9B4F18C6C699D0C2A639057A0C218794B226BF1E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_app_ftl_layout.h",
+      "bytes": 2462,
+      "sha256": "D7637AE75E594620667E559EEDD0BB8D1CE95767F3B47F9C9E9D75567A883D92"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ble_ctrl_protocol.c",
+      "bytes": 8821,
+      "sha256": "2CE6ADBEA119759C047D2657E96EEB5143A95C91BAF0A2BEA595130D7513637A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ble_ctrl_protocol.h",
+      "bytes": 14211,
+      "sha256": "728E89455F6BBACA76A329FCE9863E801742DF5FDEDF293BAD34975649909C2F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ble_ctrl_service.c",
+      "bytes": 35604,
+      "sha256": "2B4E466A4B294E75256043947800A1BD21F92309097DF356D965BDFFDF7786C8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ble_ctrl_service.h",
+      "bytes": 5028,
+      "sha256": "654B15E807BCEFD9634462B2A8BCDB7A3078A79928126C2763BEC4B1F6D5169A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_ble_service.c",
+      "bytes": 10683,
+      "sha256": "57EA8ACC026C1D44DCE2F8F653A0E5B762D2D669A8E6B71C61AF4F86B52DF01C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_ble_service.h",
+      "bytes": 1747,
+      "sha256": "44901183C964A829A029BB1ACDF7872C4207815CEE1527F362691414173EBE88"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_manager.c",
+      "bytes": 51473,
+      "sha256": "0839E11B823935389C4A955D614626628A700C66BBDE5639E19EC96742E530F9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_manager.h",
+      "bytes": 2250,
+      "sha256": "D37CEDB416F6DC085338F6C2F181211149F39BB5D388CCCEA4606AE845E58FF2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_protocol.c",
+      "bytes": 23819,
+      "sha256": "5976A8A185FD32EF9409C945E21BCBDA52722567FF2DC437728C320A336C136F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_protocol.h",
+      "bytes": 9663,
+      "sha256": "B4C204FFBF0ACF5306814B58718B5D9F9EC51EF3372E882F6E9E15C92D37044C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_store.c",
+      "bytes": 11313,
+      "sha256": "5C876C6B23BDF5206DC90F50B101613974A83A2D16B3CBE9E6CC8B256E754876"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_calibration_store.h",
+      "bytes": 1189,
+      "sha256": "B9F08247AAF60A9474BD93A4D5DB25C09E154B8F875A16D4DFBE8F49D7CC1064"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_profile.c",
+      "bytes": 1173,
+      "sha256": "A2AE0ED9989EEBD73D269B802844F6D3F19E013ED16FC3A767AFD46454F933F2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_profile.h",
+      "bytes": 605,
+      "sha256": "3BBD0874F3A423151AB409933DAE3E9DA89BB5E696555D3316A913F8BCA6F366"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_spi_scheduler.c",
+      "bytes": 87827,
+      "sha256": "CBA30926ABBC960A7814F20BDDA5DAADB4946268FC1E95203E25A58783A255C1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_spi_scheduler.h",
+      "bytes": 10627,
+      "sha256": "B53D7948DEC60DFA2996B2F68A81686928644E0EE5B657A14D6C5C40CC8B885F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_start_diag.c",
+      "bytes": 787,
+      "sha256": "C518D8E2B38DC8C0D48833AFEF0B0B1DA9F78B32BFADE7AFCD0A81692FBF14F7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_start_diag.h",
+      "bytes": 1117,
+      "sha256": "32BF73109A4B60E8BECB485C398ABDAE8A7BC36A743982F0CA1D902DE439DCA1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_time.c",
+      "bytes": 9528,
+      "sha256": "66EE6D7286B73FA71B89260AC646B89C26C77A40F1FBECBF9885FCFE7AF56573"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_time.h",
+      "bytes": 1392,
+      "sha256": "7B3ADDEFADC4E6F64545F305C1A5A2AB36FB673728B7C30802438C7BEF3200E3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_capture_worker.h",
+      "bytes": 267,
+      "sha256": "7D76FFCF79FD505BB7F3D6C535151E3D3A9861C58A21EA6351B79A337356018E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_crc32.c",
+      "bytes": 1059,
+      "sha256": "69E2B00BB3384514C961DE483F173DD392B888CDD5DF1C7B69DA10927BCCF900"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_crc32.h",
+      "bytes": 580,
+      "sha256": "12EBEDDE08701E1423A8583E15C92E9B2673666DE6B99E930EEAA44B7F50718D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_device_identity.c",
+      "bytes": 3567,
+      "sha256": "C4CF180ED776A444B34B45C4E968D50170C0D2C97B04C13EEF8E63774828DC72"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_device_identity.h",
+      "bytes": 458,
+      "sha256": "7690B0C73935ABFE62F9727B043993A2026BFB4A4BBA1A516C8A0D67773D11D6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_edge_lite.c",
+      "bytes": 30031,
+      "sha256": "A4ADCA4290186933683010B9C539E48C133B7C97C63E98C23945CB3CE651CDB1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_edge_lite.h",
+      "bytes": 3756,
+      "sha256": "041C38A74A95E90F39056C704033F4CABE65EA4A307D5BC5A44C6B73B466035C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_edge_record_format.h",
+      "bytes": 7230,
+      "sha256": "1A64F410CE2CEFB0828DCDCBF9BF44DD212E93263620646D187702E5127B46A2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_edge_shadow.c",
+      "bytes": 12181,
+      "sha256": "97EDA5F8D2FB85FD486B9DA4E1B60446F7C63CD489655D8B50818D21AF925EE9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_edge_shadow.h",
+      "bytes": 1455,
+      "sha256": "B6CB6EA6D869C89EF3E7891EADF88B185A6F9451A5C49EA6D7127FC57370E3CF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_feature_config.c",
+      "bytes": 19625,
+      "sha256": "20FFE2116803FE5BFD9C8F5D44C7FE063D62DAD6F44CE1E8A1F141E304B601E7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_feature_config.h",
+      "bytes": 3009,
+      "sha256": "C45AB51F140CEDFEB9971C36316684737A9BA304B7AB4B2A05F28FD53B288BD1"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_feuf_export_producer.c",
+      "bytes": 71325,
+      "sha256": "649603770077F70ABD362CB86FAB5978CF7C6CCC525C4592586965E8A1FA4874"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_feuf_export_producer.h",
+      "bytes": 6953,
+      "sha256": "D8B68BC2CFEA9938D522AD53BB82677483B3D8EF73999112DB4AF5AD68DF08E5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_feuf_export_protocol.h",
+      "bytes": 5277,
+      "sha256": "EFEF6017C4D684AB58BCDEF6A49AC0762078909EACF47EF282F3FC0E75866462"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_fifo_ingress_ring.c",
+      "bytes": 3915,
+      "sha256": "CD652FADD85E93038FCD2862F3ED99F6086E6374F42B308EFC121DC922B5D03B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_fifo_ingress_ring.h",
+      "bytes": 791,
+      "sha256": "08F6CEC64C5CCADAED5D791C7D173FD8C211A44DD809B1F2904B59C95CB8DA4C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_bscan.c",
+      "bytes": 44638,
+      "sha256": "A588F952FCA65D6984B51B46C3232646CEA858BF1F5607110F5C464B72945BB2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_bscan.h",
+      "bytes": 7483,
+      "sha256": "31A655991246D1155728F8CFFEEF43112351342D7A74308D3BD16D420BB4C57D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_lf_pre_ring.c",
+      "bytes": 15874,
+      "sha256": "FE1E69316E2C8701DB50D619A727F13B14E4A158BDE6FB9DCA33AB9873FF9011"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_lf_pre_ring.h",
+      "bytes": 3133,
+      "sha256": "81ECB5FECEA6AE241DD3F914067F1DF976A7E284EA9ACD8FB002E946493052A0"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_queue.c",
+      "bytes": 19881,
+      "sha256": "08E024AB866819566D3FF6DE079D58F95533B3B68DDE159240C7C3A618D01BF2"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_queue.h",
+      "bytes": 3753,
+      "sha256": "FB3D2A9F25A756B9B6DE8D5DE6973268A2477A97ACC78C368B422DBA243A5B5B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_raw_format.h",
+      "bytes": 6732,
+      "sha256": "397992725945C2D6EF0109FF82C31FA2C4B35C538A728974CFD702CD26D6EF19"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_raw_store.c",
+      "bytes": 63899,
+      "sha256": "A5C3FCCA58D068B2D2A9163F45CE2A005DEBDCC9551B8ECC2C7887387A3A8E89"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_raw_store.h",
+      "bytes": 5388,
+      "sha256": "2E64C59187C0D310BCCB1FFC4151BC94F8C94823A542222894950DDE8D48877D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_record_format.h",
+      "bytes": 1907,
+      "sha256": "F83913FF0B7FE1B422C797DF27D40C4F6BB297EE873990705F662F818A11203E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_record_store.c",
+      "bytes": 58134,
+      "sha256": "57E67EA0DE007E3B89D56B5154BCCD39FC05C1E6BAD9FE52B1260044B4B26934"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_record_store.h",
+      "bytes": 5949,
+      "sha256": "E93E891D7DA200C851042876C2870C91A078D5876CFA5D88521EB13E068CEE0C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_final_edge_store_target.h",
+      "bytes": 1570,
+      "sha256": "2DDF4EC893DCD833F343BFEE4E27AF75900A1BD41FDF7F5C61B849D17B381A7D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_flash_common.h",
+      "bytes": 378,
+      "sha256": "5438E9F8B8F632746BA6DD07D01951F4EA884A60C70A6842540D7F7947A43677"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_internal_meta_store.c",
+      "bytes": 7515,
+      "sha256": "25926C53A33510FC3099D0DDFBB3682D23365F3FED83DE44985318E3EA25A850"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_internal_meta_store.h",
+      "bytes": 1097,
+      "sha256": "233AFC6274BCEF9C7ABCAE07B1289C6D4859A807E9411C61E5E10001900DF7DE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mag_calibrator.c",
+      "bytes": 27354,
+      "sha256": "3D5E65C5AC91285509AFF5822D01C7A901F9D2EF2A4F72A8488DEE5920E54787"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mag_calibrator.h",
+      "bytes": 2836,
+      "sha256": "4BA75E43EFB30D1410F7DAADFD5A52BD2DC5EAAB40B251EC2EDB746273CB001C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mfg_info_service.c",
+      "bytes": 21909,
+      "sha256": "CFE71CA3281EDA8D123363F89E8D646E8B64B284BF1B5ED5DCA8ACE7B312499B"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mfg_info_service.h",
+      "bytes": 344,
+      "sha256": "26F158875ADF8BBB030E93A0315886C70F3F4F312D0EE083F510CB1F439B3C8A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mode_workspace.c",
+      "bytes": 5297,
+      "sha256": "3692CFECBFFC8267A8A14B9464301499AD75CF352A8CCC589DA5FB558AAB038F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_mode_workspace.h",
+      "bytes": 2193,
+      "sha256": "61633913C2C51F20A235466F1DD4F47122AE90337742C55B8A3D12E2EB94FA8C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_capture.c",
+      "bytes": 55037,
+      "sha256": "E5905F220F2BCC73D82CCEC818128B2AE9EDD03DE7D90C0C4BAFDD1D7E560459"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_capture.h",
+      "bytes": 4433,
+      "sha256": "6168E2B80274DD8732267FA595CC0FBEB9D3B8D2CC1488C26AA4DDF9E6172614"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_config.h",
+      "bytes": 2432,
+      "sha256": "7D5D2A48B80F4E6A99C152EE6593BD23D971DFF81214F39791620D1FA75B41BE"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_imu_session.c",
+      "bytes": 35762,
+      "sha256": "74310622B330256BB40FC4115ABB6028AFDBC5F3AF5726CF29893B3E1F4BC63F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_imu_session.h",
+      "bytes": 3548,
+      "sha256": "DD4C9BDF513D5A3D6703D83CCEE4FF3CDF35C173DC086E22675667C775C176E8"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_offline_v2_imu_session_internal.h",
+      "bytes": 2845,
+      "sha256": "5E9BA96E458FC7C7D7F247048760261DF6D2EFB533AE5011D935E65313C34BC6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ois20_compress.c",
+      "bytes": 38841,
+      "sha256": "AEAF42559A7031090AD28F54A2B94734D78FAF59FC4245D879B461AFF25BA9C3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_ois20_compress.h",
+      "bytes": 4145,
+      "sha256": "43CD0BCE93A7978D3C0F526F907A6EF0F51310C8FE08CC945F64D09C8B3706EC"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_imu_config.h",
+      "bytes": 775,
+      "sha256": "816B027CEBE87668E4571BF44EC9BDCBC1D76E64DAE19AABF750313429EB31EC"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_imu_session.c",
+      "bytes": 5995,
+      "sha256": "4BD9BACD7112F225CEC593CC642BEAFF49F5E2577AEC6784EEBE9CEE773F3AE3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_imu_session.h",
+      "bytes": 1787,
+      "sha256": "5982AE0D3F52C43CAF0490BD99BA50A0FE22497B7BCCE6848F0248F4004246C0"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_raw_capture.c",
+      "bytes": 93182,
+      "sha256": "0B169931145EB8CD14E0EDF36307AEF0E8A3583C4F27AF364348B967EDC42347"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_raw_capture.h",
+      "bytes": 7209,
+      "sha256": "834FE4C08743B2EEBE68C87C0596DC782E556E4CCCCB1244B91B95AE3B9894F9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_recovery_policy.h",
+      "bytes": 1801,
+      "sha256": "BCDC358B4A1D99BE9EBB0A647FE5281F4BCAACA602B6FDFA98A5419E11CA2DAF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_reset_trace.c",
+      "bytes": 15877,
+      "sha256": "E717B4152D99F9C8731112C079EAE381754F407FFAF2ACBE610A84740E945D3D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_reset_trace.h",
+      "bytes": 4883,
+      "sha256": "79853DDFD139850D1CE2380EB7B904E1A2C6F01411E43B3D3E3723C7E228A18A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_spool.c",
+      "bytes": 90905,
+      "sha256": "F1E4947BD168505CA9B82D5E878E8F26B335C4AE996C922AA62F368D4AD36A3F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_spool.h",
+      "bytes": 8276,
+      "sha256": "11C560A709FCFBFC84AA30F76D5C54190DA5AA1E75C4B71565D5740A98FF82BF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_stream.h",
+      "bytes": 14734,
+      "sha256": "EABFFF79A8E1A097258D8686B59CA44BFFA9F2E773BD212552CF0683AAF5666C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_stream_v2.c",
+      "bytes": 122812,
+      "sha256": "CC41BD34563F06221466FB2BC3B716986288E7F5961618A52983D37762511F60"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_online_stress.h",
+      "bytes": 2255,
+      "sha256": "6E83691006044952DE38E8554736BBFFE1181FE82047DF48C4A8E93C72A8B6D5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_production_acceptance.c",
+      "bytes": 16825,
+      "sha256": "E557FC395104D2F58B3D4918CB5869961304CCDE17C71B706FD204F43C0A59C9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_production_acceptance.h",
+      "bytes": 663,
+      "sha256": "6869A59326302A8E9A00367D329C5DDB2BDE930CD8B223F10A779047E6448D1F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_production_shipping.c",
+      "bytes": 6348,
+      "sha256": "33FE442CCFE2EF2BF2E43E1C5F7B56B95119B729D26C5DE26FB638FF65BF8317"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_production_shipping.h",
+      "bytes": 662,
+      "sha256": "B9659541CDAB0D841498F991A7AB557351C34F375467E24E8095C3578BBAD2B7"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_rt_marker_timer.c",
+      "bytes": 4654,
+      "sha256": "BF559A07AC12031DD19A27F1BF6081F2E11D702CF951853F168BAB59CA1E2F10"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_rt_marker_timer.h",
+      "bytes": 830,
+      "sha256": "DA7C639D3C4C80276030DBC2032DD440E0266803B2DC18A95935B7A888B6D3BF"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_rtc_clock.c",
+      "bytes": 24479,
+      "sha256": "BAF4D354DE702EC21B96F1B73DB25ACC58A80B9DF57B4AF75693C05081FB5961"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_rtc_clock.h",
+      "bytes": 3737,
+      "sha256": "8810DE6031431F415EE7D42E849FE90A2EBCC15B18CA47201C9DD9DB7BE7EDE4"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_session_directory.c",
+      "bytes": 4610,
+      "sha256": "8DAC0B4D3D1615E895406DFC6AB9C31A5AC2661383DC77224C4A815E74D1B87E"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_session_directory.h",
+      "bytes": 2105,
+      "sha256": "94FF558A58E0F4D5C66DE6E8AD8F8F76DD029065A5763D7EC86CEE9FF1071A11"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_session_range_table.c",
+      "bytes": 76727,
+      "sha256": "08BF297A0492ABAF64D2FFAE601B6E8105A3E2760E4B580DBE6F79EA40C9956C"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_session_range_table.h",
+      "bytes": 9588,
+      "sha256": "0422E80A836D4A9BACE6EB070A09033B2B967A0C56A3D0BFAD54F90B17656637"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_stress_diag.h",
+      "bytes": 2012,
+      "sha256": "2A223F611FCD5AA989EFF261CEEED7B1076FA4F374DEF9402F4D013D5165C105"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_system_info_store.c",
+      "bytes": 49333,
+      "sha256": "D5AF5DA415DE3895717298891A27EA6D4AD7F32616F9BA2607F02CD1CEC90EB6"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_system_info_store.h",
+      "bytes": 5354,
+      "sha256": "98B581C46B5290ADE6B4930EC8206E16DD64C3AFFF577F4DC27F8F71A8706464"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_training_session.c",
+      "bytes": 53274,
+      "sha256": "03D8D365C017CA67976F82616FCE33277BF3BA6584345B68D82011A485E7103D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_training_session.h",
+      "bytes": 5018,
+      "sha256": "3E8DB6F9A805A40CB553001AB9EF581C23B83E0B4357EA01DF44D8F9E4B3BFC9"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_training_snapshot.h",
+      "bytes": 856,
+      "sha256": "400D417CFB528A585DAB598BC4F9DA8CF17BD8BF253143C71D86AC791A422FB5"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_whole_unit_test.c",
+      "bytes": 50544,
+      "sha256": "6E5133B0B7C8909A2FF050EFD93A619EDF74D1065D0E97F0A901798C4C4DC679"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/service/zy100_whole_unit_test.h",
+      "bytes": 1009,
+      "sha256": "B304C653E7D955936D86504E9F7E20F5556447F4CD3CDD7D456FC1213B1FB87D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_journal.c",
+      "bytes": 4087,
+      "sha256": "21CC3441A9758D82B2B14243814A564FC0FD0B17FB0EE945ED18CCA83E4359D3"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_journal.h",
+      "bytes": 1301,
+      "sha256": "1B7394E88240685372F18FA9F07945CE6FBFA8C7E7D15B71CE3ED95A7F20E527"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_marker.c",
+      "bytes": 7543,
+      "sha256": "90601FD81C639BA08CF3ADC96655AB001678EF1D52EF8D686B3E3D86A438C58D"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_marker.h",
+      "bytes": 1634,
+      "sha256": "7413AC228D66E0D1A9FF67819A0FE9F781718E30D361EE8761CEFD9222310CDD"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_storage.c",
+      "bytes": 155780,
+      "sha256": "48D19527D409DF47B9E534C34CD4838ABA70ABDB57258F2B31A270BDA1554D0A"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/storage/zy100_offline_v2_storage.h",
+      "bytes": 9900,
+      "sha256": "69960505C74C8BAA170831E0FCFBBA8059C85392C754D2DC3197D96EF645910F"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/zy100_clock_config.c",
+      "bytes": 12243,
+      "sha256": "D41EB0DF5D3ECDE829EB3AA4672F627B2FE633DAB669F23D9EDAF68BC452EA05"
+    },
+    {
+      "path": "firmware/zy100-app/src/sample/ble_peripheral/zy100_clock_config.h",
+      "bytes": 1211,
+      "sha256": "642F22E5575B7C108B3EFB41E79EB33BD66A39C739BD988BCCABF2C8F065241F"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/app/app_msg.h",
+      "bytes": 7648,
+      "sha256": "F1A5BC43756296E878B7C9BF3B1B26B92A84AEC104368EE3756D9DDF5EA768D0"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/app/dfu_api.h",
+      "bytes": 7263,
+      "sha256": "6E4BE47103961272C7C6F53621A38751C48B0B73B7A60AB8F41ADE86D0F0F380"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/bt_types.h",
+      "bytes": 29965,
+      "sha256": "5510A0385141754585A71D2FB7F295BD87F49D80D72E7CBA3DAE9F5270B94574"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap.h",
+      "bytes": 22059,
+      "sha256": "EB9DA469BA777ECD3C1882F238108513369DA70B51C6B34D56D251A3D0D4E99D"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_adv.h",
+      "bytes": 18892,
+      "sha256": "878E425075DB50EC9711FEDBA136DF9EF792C52F8C3CCF013754033B4DF98E15"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_bond_le.h",
+      "bytes": 30600,
+      "sha256": "E0751FA1D7310039F9ED9137C039A4994255DA6F29E312704D8FD72BDBEE7E04"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_callback_le.h",
+      "bytes": 18565,
+      "sha256": "2BD07E1E3ED891EFC32C0AA70EDC588CD9A9CB0CD7B0AFB9E0FA2577095ECD15"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_conn_le.h",
+      "bytes": 39922,
+      "sha256": "3FC09140684263D10C303C65753DC4F69C044CA8F0FA83F85FC69B983FFDF0F6"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_le.h",
+      "bytes": 18354,
+      "sha256": "FE60E890BAFD09690EA69B36732E719FE9812B6E0FE833A0242AA56FD6D732FF"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_le_types.h",
+      "bytes": 23591,
+      "sha256": "3D2E4B7BC425E25BD7C8B9E1F0FFF4FCB68F7336922578F473FE8CF81E21E0B3"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_lib/gap_config.h",
+      "bytes": 11196,
+      "sha256": "93C4E63849C630BAC9776992E703DF34573D8C35BD836B9D0BB504E35DB899EE"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_msg.h",
+      "bytes": 8584,
+      "sha256": "7B06900F5ADC2EAC55807B9176A388BB2D4EA7855F17F9B986C85E4AAAD5EC6F"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/gap/gap_storage_le.h",
+      "bytes": 21923,
+      "sha256": "8221B6118FFF7F3E02933011CBA3CE7963568A3523B6C6A12913AE1330505D04"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/profile/client/ancs_client.h",
+      "bytes": 9567,
+      "sha256": "12A7F80BA0EC856651B0F240925D9324C5E953080765B90662B0372E7518C950"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/profile/gatt.h",
+      "bytes": 11433,
+      "sha256": "F444DFE31959932DCCBBCA2DFDC18976587205A1946EFBBF532D406D39CEEEAB"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/profile/profile_client.h",
+      "bytes": 22822,
+      "sha256": "652ECB2D95E9B3DE9010C9905A81ADABA1A7D60692737C6178B4E08ECF825B19"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/bluetooth/profile/profile_server.h",
+      "bytes": 19901,
+      "sha256": "BBB7B81CC5CC38C6D63942017A222A1856D13CC88FD4E7425080FFA82AFC8285"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/FreeRTOS.h",
+      "bytes": 42126,
+      "sha256": "733D9DD8BE78B5D50B88BA0CA7875686B37CE1E5804FEA7711A9C0CA124DCD88"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/FreeRTOSConfig.h",
+      "bytes": 6912,
+      "sha256": "A1EC14693CD90EBB3D8D19C15A602D9F1627D1F0D98482502B2288825DC0FB93"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/list.h",
+      "bytes": 18889,
+      "sha256": "04F6CFE02D3AE262664F88B6F8FFE8EEC320FF7BBC64E30E29D30151BA4F533E"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/mpu_wrappers.h",
+      "bytes": 1469,
+      "sha256": "7A2D0055AC3CC356D1D504C5AE57B82F53B516FE89FAEAE91B214888660B9674"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/portable.h",
+      "bytes": 6827,
+      "sha256": "9638A503AF60AF668219AEDA5F620A7BACEB46A845E67D1F044D2248194AB124"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/portmacro.h",
+      "bytes": 2827,
+      "sha256": "3276BEAA3B5F66237786A3A6C1B7AA1D66E3E9781AD161490D31FDF7C4B1C835"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/projdefs.h",
+      "bytes": 5981,
+      "sha256": "486B06163E5CA22DF6B639B17D50D6855E8757B581C5A2D7A9DDCA2D4885A6CB"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/queue.h",
+      "bytes": 63642,
+      "sha256": "D5187E7A7EBA9FB3829574BB4646815FC3EF48CBAAE4641C391779FD5D2633F9"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/semphr.h",
+      "bytes": 47824,
+      "sha256": "379959EEA88005E2B493CFB0E55491FC779326F384F92C13CE23FC2D4F8C0D8F"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/task.h",
+      "bytes": 103024,
+      "sha256": "7D7855FFAB05823D38A6BABAE4D60DEB41E3192A107AC79D0EC6779DAB04925B"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS/timers.h",
+      "bytes": 60691,
+      "sha256": "4AFF25BD2A5951D6E0E0A4BFCABFE8382D8BC1BA19949AD954502ADB8B17EB82"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/FreeRTOS_API.h",
+      "bytes": 144,
+      "sha256": "C5FFFA5953FB5C22F248BCC19358414D33AB64A6BFA3EB69E7526C195376FDE9"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_mem.h",
+      "bytes": 6648,
+      "sha256": "F8FC3A31486CA98F76161A4E0613A3EF25964E2D565FD89FF3429FE3EF4D9C80"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_msg.h",
+      "bytes": 14253,
+      "sha256": "47671193F33463E4657FF02C546BD4D93E0D2D4C15EBCAD658CD75A36EF79316"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_sched.h",
+      "bytes": 6775,
+      "sha256": "7F18C15214A6A1F77DA10096C7EB32B63B8F2825223BECD0BB48BE289CDB8621"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_sync.h",
+      "bytes": 12697,
+      "sha256": "B3E267CD49CBEA1B1A018AB12991BE296EA0CD60C155F22025BE0715F7D414C0"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_task.h",
+      "bytes": 14246,
+      "sha256": "FA8897816B888A68C21CA107B80B40220C76A5D7CB1E77EA35F725143F8EE47C"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/os/os_timer.h",
+      "bytes": 13838,
+      "sha256": "C89075E027E6669A9D207DFA2DEB7A23E35E11C15815C6DB66DC7E3CA52354F4"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_adc.h",
+      "bytes": 32090,
+      "sha256": "30C5C0F8430DCE3FAD31F9471DCA64C257F853E2E06F3A6AE0257EB5FEF03DD4"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_alias.h",
+      "bytes": 4335,
+      "sha256": "516ACBA2BC7C999DF04A852EF9EDD172370CDB2BCB0AD441B9BEFD6935BDD482"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_aon_wdg.h",
+      "bytes": 3629,
+      "sha256": "C4A0C948E91156E5519124757144E36227A1A20569691AEF02B92C8B5A94F2B0"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_bitfields.h",
+      "bytes": 25150,
+      "sha256": "8258FBBA14A6FFFFA65C79E34ABCD0E7E27A09E23B4C145354AC73C4E0C4C390"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_gdma.h",
+      "bytes": 35555,
+      "sha256": "2A56E7368215D402722190657E53EC359F86A88FFB7ABED94EAB7752D9B09441"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_gpio.h",
+      "bytes": 23701,
+      "sha256": "1E0C2AEFB5D8B1EE6237A5A29A600F2E71D3860297982F75C1FE82B5D62059E7"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_hw_aes.h",
+      "bytes": 7123,
+      "sha256": "CE17259312DEE4FD07628374303F036D8F350D5FAD6861A48B4A0CF8E79F6403"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_i2c.h",
+      "bytes": 34188,
+      "sha256": "C36268801A46A94F758BD2AACD640E11C98EBB1F078B3A0833E61C59F8AE6A2C"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_io_dlps.h",
+      "bytes": 2584,
+      "sha256": "2AE2965E315319D0A884DC032E5F857D438B05FD17669C661BBFE3E9E504AA09"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_lpc.h",
+      "bytes": 26377,
+      "sha256": "7B5F8D26ED4011A9A5FF92071A0E4E66D519F249F4CE8331A21CE4507568B4F5"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_nvic.h",
+      "bytes": 3126,
+      "sha256": "01EDC78E2ED294B38478D7710D393A20DD36D91F87138E10A3F8F71AB64BD86C"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_pinmux.h",
+      "bytes": 24627,
+      "sha256": "7E726C521F051EE838F5ADD896117353DD9CA87E662E267CB8E7448D82034E0B"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_rcc.h",
+      "bytes": 17331,
+      "sha256": "E8C3D47CFAB5BC7D500BD5130A68B17FE1BA56203BB4D55004CD63954593F217"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_rtc.h",
+      "bytes": 28645,
+      "sha256": "4EC68FC3FC994F615CDCC4F2AE583D8297F1D760F688927624CD1985AA6FE735"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_spi.h",
+      "bytes": 32297,
+      "sha256": "8D11667AE4096B6E48817A04C0358555BDCCBB505093DA795CCBEA5C4FD95AAC"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_tim.h",
+      "bytes": 22919,
+      "sha256": "16E0CFA120D2D08A8001465FBE2C029C83594F16947BC6E8DC656688600FED88"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_trng.h",
+      "bytes": 6822,
+      "sha256": "63E589D71398A45D7054099DE957E879401B2CEF9DFDF7B58964C25312F31401"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_uart.h",
+      "bytes": 33018,
+      "sha256": "EFAEF884F60139355C0EA20A5690E3951375478A04094FD71A5931B851BE390A"
+    },
+    {
+      "path": "firmware/realtek-sdk/inc/peripheral/rtl876x_wdg.h",
+      "bytes": 5335,
+      "sha256": "D1A7E73618BC37324E081C35A6D82D0F582120E7F2B0578A04F266684CD06D44"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/ble/profile/client/ancs_client.c",
+      "bytes": 24359,
+      "sha256": "5E3FB43FFAC7DA9C7C7CDFEDE8D392E36B4554357599D4790D1111328840FD73"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/ble/profile/server/bas.c",
+      "bytes": 12264,
+      "sha256": "0F54346E2A95599A753B334A341D28943831A02288F1D43CEEF50D7A95792C58"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_adc.c",
+      "bytes": 20146,
+      "sha256": "212D1E9654A5AC134BB3B3865FD0D875059CD8B542F1075D84E20DDBA652F41C"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_aon_wdg.c",
+      "bytes": 4400,
+      "sha256": "918F6D4547F70FDF01D1D1A88C88743AA62A490A7FA5FFE308EDE3002F46BDC1"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_gdma.c",
+      "bytes": 14134,
+      "sha256": "3E8FDC1F2D5ED1C71FE4F98C1059582ACF06E385A3F485933FACABD87E4E4876"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_gpio.c",
+      "bytes": 8806,
+      "sha256": "D165E0F0EA80B57DC4238DD5D26B46C4DE71E682146536EB64CA1CA7B370BAE0"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_i2c.c",
+      "bytes": 19815,
+      "sha256": "7653FB3F88BF02C03EF31426911EF30D3A8274ABB773D625BC802231735B7672"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_io_dlps.c",
+      "bytes": 67169,
+      "sha256": "DE8854F2210602E69C32E21E89E17C94E66F3E271366ECDCEFDC180EBB0FCAFC"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_lpc.c",
+      "bytes": 9618,
+      "sha256": "82AB4291D4C1DED036A3F4FBAB804109222163CBBBAFD66B15D769D37C1BF7F3"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_nvic.c",
+      "bytes": 2344,
+      "sha256": "38ADE1D08DB7F12F20762766B34EDDB148FE91368EABBCA440B76174AD008406"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_pinmux.c",
+      "bytes": 14027,
+      "sha256": "A1F7DECEA7DD6CECAA5886585192D77836EE573F1DA3C2C8AD9DB7AABB12CBEB"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_rcc.c",
+      "bytes": 15695,
+      "sha256": "F304404C4AA35182943C6FD007E00BB49E6920A591C6345445EE873723EC0A70"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_rtc.c",
+      "bytes": 16035,
+      "sha256": "EE47073023653F786D002DC42A4FCD3F1344EB6F4C3DDAE46879FA4355546D15"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_spi.c",
+      "bytes": 13265,
+      "sha256": "D4C7C57EFD03707EA926E0AA9ABA74B6CE0C27E401219BFB0F0306CFDC49D233"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_tim.c",
+      "bytes": 12415,
+      "sha256": "6BCB65EBEF967530C331A5ADF33165AA22548368B9B4A6372EDCA3A2B62A7AB1"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/peripheral/rtl876x_uart.c",
+      "bytes": 13904,
+      "sha256": "DE924C6F23B4029323055977D8A249B4727C570C3B12120A475B3006D74C509B"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/rtl876x/arm/startup_rtl876x.s",
+      "bytes": 13218,
+      "sha256": "CAA55C555E01C0C1851413870BB01584136990784D0C939B52C8369183E77573"
+    },
+    {
+      "path": "firmware/realtek-sdk/src/mcu/rtl876x/overlay_mgr.c",
+      "bytes": 4959,
+      "sha256": "933DB999A1172024CA69810F464B3CC032AD1E3F8E93DABF6EE4FBF4AB5E6A37"
+    },
+    {
+      "path": "host/ble/ble_manager.py",
+      "bytes": 495330,
+      "sha256": "C85562F4EFBE92C9BEFDAC3ED3C248E1DE465F703FEB493BBACE64198A6ACE98"
+    },
+    {
+      "path": "host/ble/calibration_protocol.py",
+      "bytes": 29853,
+      "sha256": "F51B6E6061D09493557FC7EF2F81BDA207EA76958D38B6B27296B87B7E1E5E4C"
+    },
+    {
+      "path": "host/ble/calibration_store.py",
+      "bytes": 6620,
+      "sha256": "CFD93264155D987FED7AB3D5FDACC098B4C077FFF8B41170FE494B490A465245"
+    },
+    {
+      "path": "host/ble/ci_state.py",
+      "bytes": 4383,
+      "sha256": "1A2EFF256F1899692111B37FADE7EDF88FB673F31C4D661FD678CC878C906A37"
+    },
+    {
+      "path": "host/ble/client_lifecycle.py",
+      "bytes": 3233,
+      "sha256": "A5939A743C90D6DCB3DA011297A5532BEE5FAE71CC478B0C6FF4EE1967AD28AA"
+    },
+    {
+      "path": "host/ble/connection_coordinator.py",
+      "bytes": 10085,
+      "sha256": "12EBB74744AAF9B9D2D4FF0621A87B64EEE18938C0744BB450551DF5E86FDE30"
+    },
+    {
+      "path": "host/ble/connection_recovery.py",
+      "bytes": 15197,
+      "sha256": "DFB7B996A210A9B8A4B46EDD17043008A0C605CD88E7BC63923D5704B8668132"
+    },
+    {
+      "path": "host/ble/export_pipeline.py",
+      "bytes": 14147,
+      "sha256": "96553347417017227810D5CF44D94829524C158EDDD9CACAB0688788FDF7DE2D"
+    },
+    {
+      "path": "host/ble/export_speed.py",
+      "bytes": 27376,
+      "sha256": "5ABB1AA4EB1F0821C50F6A963DB9E36DD67F769FB261CB647DB66D4237EF17C2"
+    },
+    {
+      "path": "host/ble/feature_config.py",
+      "bytes": 6604,
+      "sha256": "D2A9FCD438CA606EBB8209329A3B66F8A3B1CB4014C005DCD80FF532446CC196"
+    },
+    {
+      "path": "host/ble/gatt_operation_queue.py",
+      "bytes": 7291,
+      "sha256": "4D3CC8B3E9844C6F0DC562083ACE22422923472AE8B5593958E309DE3706B0D0"
+    },
+    {
+      "path": "host/ble/gatt_trust_store.py",
+      "bytes": 1784,
+      "sha256": "D2F880871C553DC1662728B769576917CBFDA0CC5C50977807659BC74B2A4FC7"
+    },
+    {
+      "path": "host/ble/host_selftest.py",
+      "bytes": 37307,
+      "sha256": "B3525B7BF0B18F1DCC7F2860C9121A6C403C8AB049D921F8D028FD683E919506"
+    },
+    {
+      "path": "host/ble/link_trace.py",
+      "bytes": 5798,
+      "sha256": "637241F7F439D90E5A52BB0C236DC468C5221B0D520EFCC1D96D55AA7712EC81"
+    },
+    {
+      "path": "host/ble/offline_v2_protocol.py",
+      "bytes": 27894,
+      "sha256": "1952A0DA5110C250AD60E5DC7F12AB73CBAFC2A64A8D933137B3891632819B80"
+    },
+    {
+      "path": "host/ble/offline_v2_store.py",
+      "bytes": 29680,
+      "sha256": "56DB2197077B3B710C499571AC9F7D4CC082EBCF146ADD08751E3515697F6E48"
+    },
+    {
+      "path": "host/ble/offline_v2_sync.py",
+      "bytes": 64363,
+      "sha256": "6431DB1F49703A9B40AC6433BC5DA3250E8E5264DA449D3D0290DCCAC6BC1DA0"
+    },
+    {
+      "path": "host/ble/online_diagnostics.py",
+      "bytes": 10851,
+      "sha256": "771B8D7C26015268044D6E9345331C2FA561F5AD3AE785E1E3B22FBD7DF26707"
+    },
+    {
+      "path": "host/ble/online_storage_worker.py",
+      "bytes": 4380,
+      "sha256": "4C03A6222F96F52DC0369BC376F96CDB5C1775B6FB970C9AB62A012B2F9016D5"
+    },
+    {
+      "path": "host/ble/online_store.py",
+      "bytes": 46608,
+      "sha256": "A84E2630351EDD37AD8078E3B9CE34BCEE346F904D0A12C5CACBF35A5250D34D"
+    },
+    {
+      "path": "host/ble/online_stress.py",
+      "bytes": 5461,
+      "sha256": "774F8B45935D53389D2BCD6581164156D503129481C36A2EAC54297C3E65239A"
+    },
+    {
+      "path": "host/ble/online_stress_controller.py",
+      "bytes": 8530,
+      "sha256": "F5682AC43B78BEB5A110E904F7CFDA4BA2F87F146CDB506DBD06BE8611FF7748"
+    },
+    {
+      "path": "host/ble/online_stress_report.py",
+      "bytes": 8560,
+      "sha256": "D12C5AC020F3F2FFE6251B40EF62B14BF8BC7A46EA7595C4E8DEF2705B5AC564"
+    },
+    {
+      "path": "host/ble/session_store.py",
+      "bytes": 17014,
+      "sha256": "11265471A035358703D99919E9E6F78CCC6172F3A4031AA36FAFA82D82405DF1"
+    },
+    {
+      "path": "host/ble/windows_pairing.py",
+      "bytes": 2119,
+      "sha256": "97D1E69B2ED56F9E302EF625476ADF30948B10CD1D8ACC0F48377BD8B268A623"
+    },
+    {
+      "path": "host/ble/winrt_discovery.py",
+      "bytes": 8056,
+      "sha256": "8D185257FF71DBF931F49E0F15C3BE96E9D58C68777F5C7E5D88A2C395160D2C"
+    },
+    {
+      "path": "host/ble/zy100_protocol.py",
+      "bytes": 99619,
+      "sha256": "7F4A2710ACD09ED5DD86B41D89248503E50D2D727E8E80612E16A128B37D3655"
+    },
+    {
+      "path": "host/ble/__init__.py",
+      "bytes": 58,
+      "sha256": "4E1171C09DA254B23F42FF9C5B5F8F74FF7D5018F04A4A8BC852839EE7BCDA47"
+    },
+    {
+      "path": "host/ui/mailbox.py",
+      "bytes": 2598,
+      "sha256": "59CB877F9D6CA6406266DDA8F1D487D09A078E56FAAED3FE10D4E404E3D54C84"
+    },
+    {
+      "path": "host/ui/main_window.py",
+      "bytes": 242960,
+      "sha256": "54F16F2D358808F1C0280098417EA2BBD0FE94FF4F77916594857D62F301C39A"
+    },
+    {
+      "path": "host/ui/online_stress_view.py",
+      "bytes": 7485,
+      "sha256": "186651A5F812221B93FE6035B868FF021BC5997F31F031C45862A84B5E6EAA62"
+    },
+    {
+      "path": "host/ui/__init__.py",
+      "bytes": 48,
+      "sha256": "F013E82BCA421770BE7447174B471A2EC664A3529834398382D0F349D58CDE91"
+    },
+    {
+      "path": "host/ota/dfu_protocol.py",
+      "bytes": 1660,
+      "sha256": "7D881743ADAA112F645B08A680C9629F6D0FF445CBC386EE500003A09A80B20F"
+    },
+    {
+      "path": "host/ota/image_info.py",
+      "bytes": 906,
+      "sha256": "8239B7E216BB20CD8FE02D6FD7F338E9D80DEBCCEAB2BD1D7EE846AFFB019D60"
+    },
+    {
+      "path": "host/ota/ota_manager.py",
+      "bytes": 15460,
+      "sha256": "9B77B53FAD719CD20F0E84D2437E2DC29E38E8844DA57350CAB200B5E76A441D"
+    },
+    {
+      "path": "host/ota/ota_state.py",
+      "bytes": 530,
+      "sha256": "B39C4D2AEA1F83FB4AC3DEA13EFE493E92805A96547C80379D9C15F472F239A4"
+    },
+    {
+      "path": "host/ota/realtek_dfu.py",
+      "bytes": 44611,
+      "sha256": "D93ABC9523B1FFBC66D1F5A0DE451019BF473590BB14DDBCD59DF73010B4911A"
+    },
+    {
+      "path": "host/ota/runtime_paths.py",
+      "bytes": 1173,
+      "sha256": "B7909520C895D8A196F73206B6B2EA13B9BC16AE82555EC2117E5912AD85ABCC"
+    },
+    {
+      "path": "host/ota/__init__.py",
+      "bytes": 615,
+      "sha256": "B109ADCEC2312A3CDCDD96D8C622A988BCB6F7438B250C066E7122D2D03E37FA"
+    },
+    {
+      "path": "host/main.py",
+      "bytes": 1688,
+      "sha256": "110C4BABCA48767BFE0A960F06AB414CC82DE6AEEA96F61CD9FD8B39E7807FF8"
+    },
+    {
+      "path": "host/requirements.txt",
+      "bytes": 13,
+      "sha256": "CEBFDD2E7450ECDC25AD06B76DFEEA567A392DDCAB21BA7E95D0846022BE0E8E"
+    },
+    {
+      "path": "host/gatt_services.txt",
+      "bytes": 2932,
+      "sha256": "4ABE5E8C9F5E32C7E38156C84056D4F15BC845E318F0E1D90D38EF49627D71A0"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/protocol_v1.json",
+      "bytes": 686,
+      "sha256": "0E5306278F0AA12431C687DFD4837025CAD2C8E3A9F80D7E7A0660F3C41F73FA"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/tools/analyze_timing.py",
+      "bytes": 15088,
+      "sha256": "E0CD2E5A8BF8E4424B33507CE678A47999D245258D374B49801856AB1D86D1E5"
+    },
+    {
+      "path": "firmware/zy100-app/online_stress_test/tools/stress_io_report.py",
+      "bytes": 4926,
+      "sha256": "C8436B585B0D88EF069CDFA96C4F8D4C69E38CB9DFE74B2049C3ABCC3E026DFE"
+    },
+    {
+      "path": "logs/2026-09-24/ble_tool_logs.txt",
+      "bytes": 89206,
+      "sha256": "B45F815C46BA76A7697B9CA6102A0F65A25EB1DF6EC80128245E9348ECFFC9C6"
+    },
+    {
+      "path": "logs/2026-09-24/COM3_2026-09-24_18-36-16_ARM.log",
+      "bytes": 11204,
+      "sha256": "578918FCF6E5EAEB86273B392E284C8C69A44321D6AF98509D21C67260B435AE"
+    }
+  ]
+}

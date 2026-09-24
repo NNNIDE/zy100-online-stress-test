@@ -1,0 +1,56 @@
+GATT 服务与特征值导出
+====================
+
+当前状态（2026-06-09 代码核对）
+-----------------------------
+这是旧版 A00A/B00x 设备的 GATT 导出留档，不是当前 BLE_Tool 主业务协议。当前代码要求 9ECA Control Service：
+
+- 9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000 Control Service
+- 9eca0001-4a9d-4f4d-b61a-7d0f5a9a1000 Command
+- 9eca0002-4a9d-4f4d-b61a-7d0f5a9a1000 ACK / Status
+- 9eca0003-4a9d-4f4d-b61a-7d0f5a9a1000 Device Info
+- 9eca0004-4a9d-4f4d-b61a-7d0f5a9a1000 Export Data
+- 9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000 Factory Read-only Service
+- 9eca0001-4a9d-4f4d-b61a-7d0f5a9a2000 MfgInfo (Read)
+
+支持设备端地磁校准的新固件还提供可选 Calibration Service：
+
+- 9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000 Calibration Service
+- 9eca3001-4a9d-4f4d-b61a-7d0f5a9a1000 Calibration Info（Read）
+- 9eca3002-4a9d-4f4d-b61a-7d0f5a9a1000 Calibration TX（Notify）
+- 9eca3003-4a9d-4f4d-b61a-7d0f5a9a1000 Calibration RX（Write Request）
+- 9eca3004-4a9d-4f4d-b61a-7d0f5a9a1000 Calibration Status（Read / Notify）
+
+如果当前设备只发现下方 A00A/B001/B002/B003/B004，代码会判定为旧固件协议或 GATT 缓存不匹配。APP 对接请不要使用本文件作为当前协议依据。
+
+服务数量: 4
+特征数量: 10
+目标服务 A00A: 已发现
+V1/B001: 已发现
+V2/B002: 已发现
+V3/B003: 已发现
+V4/B004: 已发现
+
+详细行信息：
+------------
+[服务] 00001801-0000-1000-8000-00805f9b34fb | Generic Attribute Profile
+    - [特征] 00002a05-0000-1000-8000-00805f9b34fb | Service Changed | indicate
+[服务] 00001800-0000-1000-8000-00805f9b34fb | Generic Access Profile
+    - [特征] 00002a00-0000-1000-8000-00805f9b34fb | Device Name | read
+    - [特征] 00002a01-0000-1000-8000-00805f9b34fb | Appearance | read
+    - [特征] 00002a04-0000-1000-8000-00805f9b34fb | Peripheral Preferred Connection Parameters | read
+    - [特征] 00002aa6-0000-1000-8000-00805f9b34fb | Central Address Resolution | read
+[服务] 0000a00a-0000-1000-8000-00805f9b34fb | Vendor specific
+    - [特征] 0000b001-0000-1000-8000-00805f9b34fb | Vendor specific | read
+    - [特征] 0000b002-0000-1000-8000-00805f9b34fb | Vendor specific | write-without-response, write
+    - [特征] 0000b003-0000-1000-8000-00805f9b34fb | Vendor specific | notify
+    - [特征] 0000b004-0000-1000-8000-00805f9b34fb | Vendor specific | indicate
+[服务] 0000180f-0000-1000-8000-00805f9b34fb | Battery Service
+    - [特征] 00002a19-0000-1000-8000-00805f9b34fb | Battery Level | read, notify
+
+[目标 UUID 映射]
+服务 UUID：0000a00a-0000-1000-8000-00805f9b34fb
+V1 读：0000b001-0000-1000-8000-00805f9b34fb（属性索引 0x02）
+V2 写：0000b002-0000-1000-8000-00805f9b34fb（属性索引 0x05）
+V3 通知：0000b003-0000-1000-8000-00805f9b34fb（属性索引 0x07，CCCD 0x08）
+V4 指示：0000b004-0000-1000-8000-00805f9b34fb（属性索引 0x0A，CCCD 0x0B）

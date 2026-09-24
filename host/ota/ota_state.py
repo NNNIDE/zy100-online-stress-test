@@ -1,0 +1,21 @@
+from __future__ import annotations
+
+from enum import Enum
+
+
+class OtaState(str, Enum):
+    """OTA workflow state for UI and logs."""
+
+    IDLE = "IDLE"
+    FILE_SELECTED = "FILE_SELECTED"
+    CONNECTED = "CONNECTED"
+    SERVICE_CHECKED = "SERVICE_CHECKED"
+    ENTERING_DFU = "ENTERING_DFU"
+    SCANNING = "SCANNING"
+    CONNECTING = "CONNECTING"
+    TRANSFERRING = "TRANSFERRING"
+    VALIDATING = "VALIDATING"
+    ACTIVATING = "ACTIVATING"
+    COMPLETED = "COMPLETED"
+    PENDING_PROTOCOL = "PENDING_PROTOCOL"
+    ERROR = "ERROR"

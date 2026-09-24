@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv*/
+.env
+.env.*
+build/
+dist/
+*.bin
+*.exe
+*.lib
+*.obj
+*.uvprojx
+*.uvoptx
+

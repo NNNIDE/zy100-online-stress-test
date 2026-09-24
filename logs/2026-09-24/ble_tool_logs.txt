@@ -1,0 +1,550 @@
+[18:32:28] [WINRT_GATT] phase=services {'uuid': None, 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '00001801-0000-1000-8000-00805f9b34fb', 'handle': 1, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '00001800-0000-1000-8000-00805f9b34fb', 'handle': 5, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '0000a00a-0000-1000-8000-00805f9b34fb', 'handle': 14, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000', 'handle': 29, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000', 'handle': 40, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '0000180f-0000-1000-8000-00805f9b34fb', 'handle': 51, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '0000d0ff-3c17-d293-8e48-14fe2e4da212', 'handle': 55, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_returned {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000', 'handle': 74, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000', 'handle': 29, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=characteristics {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca0001-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca0002-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca0003-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca0004-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_deferred {'uuid': '00001801-0000-1000-8000-00805f9b34fb', 'handle': 1} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service_deferred {'uuid': '00001800-0000-1000-8000-00805f9b34fb', 'handle': 5} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service {'uuid': '0000a00a-0000-1000-8000-00805f9b34fb', 'handle': 14, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=characteristics {'uuid': '0000a00a-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '0000b001-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '0000b002-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '0000b003-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '0000b004-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '0000b005-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service {'uuid': '9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000', 'handle': 40, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=characteristics {'uuid': '9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca3001-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca3002-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca3003-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '9eca3004-4a9d-4f4d-b61a-7d0f5a9a1000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service {'uuid': '0000180f-0000-1000-8000-00805f9b34fb', 'handle': 51, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=characteristics {'uuid': '0000180f-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=descriptors {'uuid': '00002a19-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:28] [WINRT_GATT] phase=raw_service {'uuid': '0000d0ff-3c17-d293-8e48-14fe2e4da212', 'handle': 55, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=characteristics {'uuid': '0000d0ff-3c17-d293-8e48-14fe2e4da212', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd1-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd2-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd3-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd4-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd5-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffd8-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000fff1-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000fff2-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '0000ffe0-0000-1000-8000-00805f9b34fb', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=raw_service {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000', 'handle': 74, 'discovery_mode': 'all_services'} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=characteristics {'uuid': '9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '9eca0001-4a9d-4f4d-b61a-7d0f5a9a2000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=descriptors {'uuid': '9eca0013-4a9d-4f4d-b61a-7d0f5a9a2000', 'cache': 'uncached', 'status': '0', 'protocol_error': None} op=4 token=10
+[18:32:29] [WINRT_GATT] phase=usable_services {'count': 6, 'cache': 'uncached'} op=4 token=10
+[18:32:29] [HOST_CI_SM] transition id=3 from=DISCONNECTED to=ACTIVE_IDLE reason=transport_connected target_ci=48 target_ms=60 target_latency=0 host_request=none firmware_owns_exact_ci=1
+[18:32:29] [HOST_CI_SM] observe id=3 desired=ACTIVE_IDLE actual=CAPTURE_RUNTIME ci_ms=15 latency=0 match=0 elapsed_ms=0 source=transport_connected
+[18:32:29] [BLE_CONNECT] transport_connected=1 name=ZP-028511 address=EE:AA:AA:AA:AA:5A max_links=1 max_paired=3 attempt=3/3 discovery=all_services
+[18:32:29] [BLE_GATT] service_count=6
+[18:32:29] [BLE_GATT] service[0]=9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca0001-4a9d-4f4d-b61a-7d0f5a9a1000 properties=write-without-response,write handle=0x001E
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca0002-4a9d-4f4d-b61a-7d0f5a9a1000 properties=read,notify handle=0x0020
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca0003-4a9d-4f4d-b61a-7d0f5a9a1000 properties=read handle=0x0023
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca0004-4a9d-4f4d-b61a-7d0f5a9a1000 properties=notify handle=0x0025
+[18:32:29] [BLE_GATT] service[1]=0000a00a-0000-1000-8000-00805f9b34fb
+[18:32:29] [BLE_GATT] char service=0000a00a-0000-1000-8000-00805f9b34fb char=0000b001-0000-1000-8000-00805f9b34fb properties=read handle=0x000F
+[18:32:29] [BLE_GATT] char service=0000a00a-0000-1000-8000-00805f9b34fb char=0000b002-0000-1000-8000-00805f9b34fb properties=write-without-response,write handle=0x0012
+[18:32:29] [BLE_GATT] char service=0000a00a-0000-1000-8000-00805f9b34fb char=0000b003-0000-1000-8000-00805f9b34fb properties=notify handle=0x0014
+[18:32:29] [BLE_GATT] char service=0000a00a-0000-1000-8000-00805f9b34fb char=0000b004-0000-1000-8000-00805f9b34fb properties=indicate handle=0x0017
+[18:32:29] [BLE_GATT] char service=0000a00a-0000-1000-8000-00805f9b34fb char=0000b005-0000-1000-8000-00805f9b34fb properties=notify,read,write handle=0x001A
+[18:32:29] [BLE_GATT] service[2]=9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000
+[18:32:29] [BLE_GATT] char service=9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca3001-4a9d-4f4d-b61a-7d0f5a9a1000 properties=read handle=0x0029
+[18:32:29] [BLE_GATT] char service=9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca3002-4a9d-4f4d-b61a-7d0f5a9a1000 properties=notify handle=0x002B
+[18:32:29] [BLE_GATT] char service=9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca3003-4a9d-4f4d-b61a-7d0f5a9a1000 properties=write handle=0x002E
+[18:32:29] [BLE_GATT] char service=9eca3000-4a9d-4f4d-b61a-7d0f5a9a1000 char=9eca3004-4a9d-4f4d-b61a-7d0f5a9a1000 properties=read,notify handle=0x0030
+[18:32:29] [BLE_GATT] service[3]=0000180f-0000-1000-8000-00805f9b34fb
+[18:32:29] [BLE_GATT] char service=0000180f-0000-1000-8000-00805f9b34fb char=00002a19-0000-1000-8000-00805f9b34fb properties=read,notify handle=0x0034
+[18:32:29] [BLE_GATT] service[4]=0000d0ff-3c17-d293-8e48-14fe2e4da212
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd1-0000-1000-8000-00805f9b34fb properties=write-without-response handle=0x0038
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd2-0000-1000-8000-00805f9b34fb properties=read handle=0x003A
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd3-0000-1000-8000-00805f9b34fb properties=read handle=0x003C
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd4-0000-1000-8000-00805f9b34fb properties=read handle=0x003E
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd5-0000-1000-8000-00805f9b34fb properties=read handle=0x0040
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffd8-0000-1000-8000-00805f9b34fb properties=write-without-response handle=0x0042
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000fff1-0000-1000-8000-00805f9b34fb properties=read handle=0x0044
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000fff2-0000-1000-8000-00805f9b34fb properties=write handle=0x0046
+[18:32:29] [BLE_GATT] char service=0000d0ff-3c17-d293-8e48-14fe2e4da212 char=0000ffe0-0000-1000-8000-00805f9b34fb properties=read handle=0x0048
+[18:32:29] [BLE_GATT] service[5]=9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000 char=9eca0001-4a9d-4f4d-b61a-7d0f5a9a2000 properties=read handle=0x004B
+[18:32:29] [BLE_GATT] char service=9eca0000-4a9d-4f4d-b61a-7d0f5a9a2000 char=9eca0013-4a9d-4f4d-b61a-7d0f5a9a2000 properties=read handle=0x004D
+[18:32:29] GATT discovery completed
+[18:32:29] [BLE_BATTERY] battery_found=1 uuid=00002a19-0000-1000-8000-00805f9b34fb properties=read,notify handle=0x0034
+[18:32:29] [BLE_SERVICE] zy100_control_found=1 command_found=1 ack_found=1 export_found=1
+[18:32:29] [CAL_GATT] service=1 info=1 tx=1 rx=1 status=1
+[18:32:29] [BLE_RECOVERY] op=4 token=10 stage=initializing elapsed_ms=42468 message=正在进行安全验证与协议初始化 {'attempt': 3}
+[18:32:29] [BLE_TIMING] stage=gatt_ready total_ms=42469.0 protocol_ms=0.0
+[18:32:29] [SN_CACHE] source=device_info action=updated value=ZP01210327659747
+[18:32:29] [OTA] OTA 服务检测完成：服务 6 / 特征 25 / 候选服务 0 / 候选特征 0
+[18:32:29] [BLE_DEVICE_INFO] name=ZP-028511;sn=ZP01210327659747;proto=1;boot=4;usrctx=1;fcfg=1;offobs=1;offpurge=1;offctl=1;offstop_any=1;offprio=1;trsnap=1;trstop=1;offmeta=4;calcache=1;code=20007;fw=1.0.0
+[18:32:29] [BLE_NOTIFY] ack_subscribed=1 uuid=9eca0002-4a9d-4f4d-b61a-7d0f5a9a1000
+[18:32:29] [BLE_ACK] cmd=GET_CONNECTION_STATE seq=16 status=0x00 exec_mode=0x01 user_id=0 training_id=0
+[18:32:29] [HOST_CI_CENTRAL][TX] GET_CONNECTION_STATE payload=A5 01 19 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:29] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=2 status=0 ready_bits=0x00000113 stage=6 reason=0 retry_ms=0
+[18:32:29] [HOST_CI_CENTRAL] capability build=26200 valid=1 signature=0xB56C5520 profiles={<WindowsCentralProfile.BALANCED: 1>: WindowsCentralProfileSpec(minimum_interval=24, maximum_interval=48, latency=0, link_timeout=400), <WindowsCentralProfile.THROUGHPUT_OPTIMIZED: 2>: WindowsCentralProfileSpec(minimum_interval=12, maximum_interval=12, latency=0, link_timeout=200), <WindowsCentralProfile.POWER_OPTIMIZED: 3>: WindowsCentralProfileSpec(minimum_interval=72, maximum_interval=144, latency=0, link_timeout=600)} reason=ok
+[18:32:29] [HOST_CI_CENTRAL] enable_settled ci=48 latency=0 samples=2
+[18:32:29] [BLE_ACK] cmd=HOST_CI_MODE_ENABLE seq=17 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=50331655
+[18:32:29] [HOST_CI_CENTRAL][TX] HOST_CI_MODE_ENABLE_V3 payload=A5 01 12 11 E4 25 97 B7 58 66 00 00 20 55 6C B5 07 00 00 03
+[18:32:29] [CI_LINK] generation=1 transition=2 business_state=1 profile=1 phase=2 actual_ci=48 latency=0
+[18:32:29] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=2 business_state=1 requested_profile=1 phase=2 actual_ci=48 latency=0 initiator=1
+[18:32:29] [HOST_CI_CENTRAL] profile=BALANCED winrt_status=1 accepted=1
+[18:32:29] [HOST_CI_CENTRAL] proactive_link_notify=1 query_skipped=1
+[18:32:30] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=18 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=65793
+[18:32:30] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 12 E4 25 97 B7 01 00 00 00 02 00 00 00 01 01 01 00
+[18:32:30] [CI_LINK] generation=1 transition=2 business_state=1 profile=1 phase=3 actual_ci=48 latency=0
+[18:32:30] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=2 business_state=1 requested_profile=1 phase=3 actual_ci=48 latency=0 initiator=1
+[18:32:30] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=3 status=0 ready_bits=0x00000117 stage=15 reason=0 retry_ms=0
+[18:32:30] [CI_LINK] generation=1 transition=2 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:32:30] [CI_MODE] mode=WINDOWS_CENTRAL session=3080136164 generation=1 reason=
+[18:32:30] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=2 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:32:30] [HOST_CI_CENTRAL] initial_balanced_applied=1 generation=1 transition=2 ci=48 latency=0
+[18:32:30] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=4 status=0 ready_bits=0x00002117 stage=7 reason=0 retry_ms=0
+[18:32:30] [HOST_CI_CENTRAL][TX] CONNECTION_USER_SYNC payload=A5 01 1A 13 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:30] [BLE_ACK] cmd=CONNECTION_USER_SYNC seq=19 status=0x00 exec_mode=0x01 user_id=1 training_id=0
+[18:32:30] [USER_CTX] synced=1 user_id=1 owned=0 foreign=0 query=0
+[18:32:30] [HOST_CI_CENTRAL] actual_stable_deferred=1 generation=1 transition=2
+[18:32:30] [HOST_CI_CENTRAL] actual_stable generation=1 transition=2 profile=BALANCED ci=48 latency=0
+[18:32:30] [CAL_SECURITY] ready attempt=1 protected_read=1 subscriptions=1
+[18:32:30] [CAL_STATUS] name=READY transaction=0 detail=0 generation=1 crc=0xCE0DC7E2
+[18:32:31] [CAL_STATUS] name=CAL_INFO_CONFIRMED transaction=3 detail=0 generation=1 crc=0xCE0DC7E2
+[18:32:31] [CAL_GATE] summary_confirmed valid=1 generation=1 crc=0xCE0DC7E2
+[18:32:31] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=5 status=0 ready_bits=0x0000211F stage=9 reason=0 retry_ms=0
+[18:32:31] [CAL_STATUS] name=CAL_RECORD_CACHE_CONFIRMED transaction=4 detail=0 generation=1 crc=0xCE0DC7E2
+[18:32:31] [CAL_CACHE] confirmed sn=ZP01210327659747 generation=1 bytes=80 crc=0xCE0DC7E2
+[18:32:31] [BLE_NOTIFY] export_subscribed=1 uuid=9eca0004-4a9d-4f4d-b61a-7d0f5a9a1000
+[18:32:31] [OFFLINE_V2][STATE] state=listing reason=connect_ready_offline_first
+[18:32:31] [BLE_ACK] cmd=OFFLINE_SESSION_LIST seq=20 status=0x00 exec_mode=0x03 user_id=1 training_id=4294967295
+[18:32:31] [OFFLINE_V2][STATE] state=listing reason=list_page
+[18:32:31] [OFFLINE_V2][STATE] state=complete reason=no_pending_sessions
+[18:32:31] [HOST_CI_CENTRAL][TX] OFFLINE_SESSION_LIST payload=A5 01 24 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:31] [OFFLINE_V2][TX] command=OFFLINE_SESSION_LIST seq=20
+[18:32:31] [BLE_ACK] cmd=CONNECTION_USER_SYNC seq=21 status=0x00 exec_mode=0x01 user_id=1 training_id=0
+[18:32:31] [HOST_CI_CENTRAL][TX] CONNECTION_USER_SYNC_QUERY payload=A5 01 1A 15 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:31] [USER_CTX] synced=1 user_id=1 owned=0 foreign=0 query=1
+[18:32:31] [BLE_RX] ACK TIME_SYNC seq=22 status=0x00 device_state=0x01 exec_mode=0x02 user_id=1 training_id=1 detail=1
+[18:32:31] [BLE_ACK] cmd=TIME_SYNC seq=22 status=0x00 exec_mode=0x02 user_id=1 training_id=1
+[18:32:31] [HOST_CI_CENTRAL][TX] TIME_SYNC payload=A5 01 10 16 01 00 00 00 23 58 F9 D2 A0 01 00 00 01 00 00 00
+[18:32:31] [BLE_TX] TIME_SYNC seq=22 user_id=1 training_id=1 unix_time_ms=1790245951523 local_time=2026-09-24 18:32:31.523
+[18:32:31] [BLE_TX] payload=A5 01 10 16 01 00 00 00 23 58 F9 D2 A0 01 00 00 01 00 00 00
+[18:32:31] [BLE_SYNC] rtc_sync_ok=1 user_id=1 training_id=1
+[18:32:31] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=6 status=1 ready_bits=0x0000237F stage=12 reason=0 retry_ms=0
+[18:32:31] [FEATURE_CFG] status=syncing supported=1 synced=0 pending=1 user=1 crc=0x1875A088 generation=0 message=正在保存并应用配置
+[18:32:31] [BLE_ACK] cmd=ONLINE_STREAM_READY seq=23 status=0x00 exec_mode=0x02 user_id=31 training_id=0
+[18:32:31] [ONLINE_STATE] ready_ack status=0x00 seq=23 detail=0x00000000
+[18:32:31] [HOST_CI_CENTRAL][TX] ONLINE_STREAM_READY payload=A5 01 22 17 1F 00 00 00 9B 58 F9 D2 A0 01 00 00 00 00 00 00
+[18:32:31] [BLE_TX] ONLINE_STREAM_READY seq=23 capability=0x0000001F host_time_ms=1790245951643 reason=connect_ready_after_user_isolated_offline response=1 payload=A5 01 22 17 1F 00 00 00 9B 58 F9 D2 A0 01 00 00 00 00 00 00
+[18:32:31] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=7 status=1 ready_bits=0x000023FF stage=16 reason=0 retry_ms=0
+[18:32:31] [BLE_ACK] cmd=FEATURE_CONFIG_SYNC seq=24 status=0x00 exec_mode=0x03 user_id=1 training_id=410361992
+[18:32:31] [HOST_CI_CENTRAL][TX] FEATURE_CONFIG_SYNC payload=A5 01 2D 18 01 00 00 00 01 03 02 01 FF 80 00 64 88 A0 75 18
+[18:32:32] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=8 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:32:32] [FEATURE_CFG] status=synced supported=1 synced=1 pending=0 user=1 crc=0x1875A088 generation=7 message=配置已保存、硬件已应用
+[18:32:32] [BLE_ACK] cmd=FEATURE_CONFIG_SYNC seq=24 status=0x00 exec_mode=0x04 user_id=1 training_id=410361992
+[18:32:32] [BLE_TIMING] stage=business_ready total_ms=45547.0 protocol_ms=3078.0
+[18:32:32] [BLE_GATT][FAST] trusted_saved=1 address=EE:AA:AA:AA:AA:5A sn=ZP01210327659747 code=20007
+[18:32:32] [OTA] OTA 上下文：设备已连接
+[18:32:32] [OTA] OTA 服务检测完成：服务 6 / 特征 25 / 候选服务 0 / 候选特征 0
+[18:32:32] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=25 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=196865
+[18:32:32] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 19 E4 25 97 B7 01 00 00 00 02 00 00 00 01 01 03 00
+[18:32:32] [HOST_CI_CENTRAL] actual_stable_deferred_flushed=1
+[18:32:32] [BLE_RECOVERY] op=4 token=10 stage=business_ready elapsed_ms=45657 message=设备业务连接已就绪 {}
+[18:32:33] [CI_LINK] generation=1 transition=2 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:32:33] [SN_CACHE] source=mfg_info parsed=<empty> action=kept_existing effective=ZP01210327659747
+[18:32:33] [OTA] OTA 上下文：设备已连接
+[18:32:32] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=2 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:32:32] [BLE_DEVICE_CHANNEL] value=ST valid=1 raw_hex=53 54
+[18:32:32] [BLE_MFG_INFO] len=246 text_len=246 has_sn=0 has_channel=1 value=mode=locked;fw_code=20007;reason=locked_record;locked_invalid=0;mfg_record_version=5;mfg_payload_crc=2515143135;imu_cal_valid=0;channel=ST;environment=ST;training_config_version=1;auto_capture=0;training_led_enabled=1;training_led_target=notify;t
+[18:32:32] [BLE_BATTERY] battery_read percent=73
+[18:32:32] [BLE_BATTERY] battery_subscribed=1 uuid=00002a19-0000-1000-8000-00805f9b34fb
+[18:32:35] [BLE_ACK] cmd=PING seq=26 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:32:40] [BLE_ACK] cmd=PING seq=27 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:32:42] [HOST_CI_CENTRAL][TX] ONLINE_STRESS payload=A5 01 30 1C 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:43] [HOST_CI_CENTRAL][TX] ONLINE_STRESS payload=A5 01 30 1D 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:32:43] [BLE_ACK] cmd=ONLINE_STREAM_READY seq=30 status=0x00 exec_mode=0x02 user_id=63 training_id=0
+[18:32:43] [ONLINE_STATE] ready_ack status=0x00 seq=30 detail=0x00000000
+[18:32:43] [HOST_CI_CENTRAL][TX] ONLINE_STREAM_READY payload=A5 01 22 1E 3F 00 00 00 4E 86 F9 D2 A0 01 00 00 00 00 00 00
+[18:32:43] [BLE_TX] ONLINE_STREAM_READY seq=30 capability=0x0000003F host_time_ms=1790245963342 reason=stress_negotiate response=1 payload=A5 01 22 1E 3F 00 00 00 4E 86 F9 D2 A0 01 00 00 00 00 00 00
+[18:32:43] [HOST_CI_CENTRAL][TX] ONLINE_STRESS payload=A5 01 30 1F 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00
+[18:32:43] [START_OP] op=1 attempt=1 from=IDLE to=PREPARING reason=user_start_claimed pending=1
+[18:32:43] [CI_RECOVERY] op=1 attempt=1 stage=send_start
+[18:32:43] [HOST_CI_CENTRAL] legacy_speed_skip=1 action=enter reason=before_start_capture
+[18:32:43] [START_OP] op=1 attempt=1 from=PREPARING to=WAIT_FINAL reason=start_frame_ready_seq_32 pending=1
+[18:32:43] [BLE_ACK] cmd=START_CAPTURE seq=32 status=0x00 exec_mode=0x03 user_id=1 training_id=1
+[18:32:43] [HOST_CI_CENTRAL][TX] START_CAPTURE payload=A5 01 01 20 01 00 00 00 3F 87 F9 D2 A0 01 00 00 01 00 00 00
+[18:32:43] [BLE_TX] START_CAPTURE seq=32 user_id=1 training_id=1 unix_time_ms=1790245963583 response=1 op=1 attempt=1 payload=A5 01 01 20 01 00 00 00 3F 87 F9 D2 A0 01 00 00 01 00 00 00
+[18:32:43] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=9 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:32:43] [BLE_STATE] notify seq=1 status=0x00 device_state=0x06 exec_mode=0x01
+[18:32:45] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=10 status=0 ready_bits=0x000061FB stage=6 reason=0 retry_ms=0
+[18:32:45] [CI_LINK] generation=1 transition=3 business_state=3 profile=2 phase=2 actual_ci=48 latency=0
+[18:32:45] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=3 business_state=3 requested_profile=2 phase=2 actual_ci=48 latency=0 initiator=1
+[18:32:45] [HOST_CI_CENTRAL] request_closed reason=profile_switch
+[18:32:45] [HOST_CI_CENTRAL] profile=THROUGHPUT_OPTIMIZED winrt_status=1 accepted=1
+[18:32:45] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=33 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=65794
+[18:32:45] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 21 E4 25 97 B7 01 00 00 00 03 00 00 00 02 01 01 00
+[18:32:45] [CI_LINK] generation=1 transition=3 business_state=3 profile=2 phase=3 actual_ci=48 latency=0
+[18:32:45] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=3 business_state=3 requested_profile=2 phase=3 actual_ci=48 latency=0 initiator=1
+[18:32:45] [BLE_ACK] cmd=PING seq=34 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:32:46] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=11 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:32:46] [CI_LINK] generation=1 transition=3 business_state=3 profile=2 phase=4 actual_ci=12 latency=0
+[18:32:46] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=3 business_state=3 requested_profile=2 phase=4 actual_ci=12 latency=0 initiator=1
+[18:32:46] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=12 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:32:46] [BLE_STATE] notify seq=2 status=0x00 device_state=0x01 exec_mode=0x01
+[18:32:47] [CI_LINK] generation=1 transition=3 business_state=3 profile=2 phase=4 actual_ci=12 latency=0
+[18:32:47] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=35 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=196866
+[18:32:47] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 23 E4 25 97 B7 01 00 00 00 03 00 00 00 02 01 03 00
+[18:32:47] [HOST_CI_CENTRAL] actual_stable generation=1 transition=3 profile=THROUGHPUT_OPTIMIZED ci=12 latency=0
+[18:32:47] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=3 business_state=3 requested_profile=2 phase=4 actual_ci=12 latency=0 initiator=1
+[18:32:47] [ONLINE_STATE] start session_id=1 user_id=1 training_id=1 ack_timeout_ms=2000 summary_batch=1 store=C:\Users\85836\AppData\Local\ZY100_BLE_Tool\online_sessions\20260924_183247_00000001_STRESS
+[18:32:47] [BLE_ACK] cmd=START_CAPTURE seq=32 status=0x00 exec_mode=0x02 user_id=1 training_id=1
+[18:32:47] [HOST_CI_SM] observe id=3 desired=ACTIVE_IDLE actual=CAPTURE_RUNTIME ci_ms=15 latency=0 match=0 elapsed_ms=18483 source=start_final_ack
+[18:32:47] [START_OP] op=1 attempt=1 from=WAIT_FINAL to=TERMINAL reason=final_ack_success pending=1
+[18:32:47] [START_OP] op=1 attempt=1 from=TERMINAL to=IDLE reason=final_ack_success_cleanup_complete pending=0
+[18:32:47] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=13 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:32:47] [BLE_STATE] notify seq=3 status=0x00 device_state=0x0B exec_mode=0x01
+[18:32:49] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 24 01 00 00 00 01 00 00 00 00 00 00 00 01 01 00 00
+[18:32:49] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 25 01 00 00 00 02 00 00 00 00 00 00 00 01 01 00 00
+[18:32:50] [BLE_ACK] cmd=PING seq=38 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:32:50] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 27 01 00 00 00 03 00 00 00 00 00 00 00 01 01 00 00
+[18:32:51] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 28 01 00 00 00 04 00 00 00 00 00 00 00 01 01 00 00
+[18:32:52] [ONLINE_HOST_STAT] sid=1 why=run cb=294 bytes=71288 seq=294 ft=0x12 rid=5 off=11856 gap=15.5/1020.8 q=0/46/273.4 parse=0.2 save=637.1 ack=78.9/11.7/0 ui=0.0/135.1 log=0.1 loop=15.9 storage=0.7/636.6 saved_to_ack=0.7 ui_work=9.4 save_rid=1 save_ok=1 save_wall=636.5 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.4,record_write:0.1,record_flush:0.0,record_verify:0.0,record_replace:0.4,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:630.5,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.5,metadata_write:0.1,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:1.3,metadata_cleanup:0.1,other:0.8
+[18:32:52] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 29 01 00 00 00 05 00 00 00 00 00 00 00 01 01 00 00
+[18:32:54] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2A 01 00 00 00 06 00 00 00 00 00 00 00 01 01 00 00
+[18:32:54] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2B 01 00 00 00 07 00 00 00 00 00 00 00 01 01 00 00
+[18:32:55] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2C 01 00 00 00 08 00 00 00 00 00 00 00 01 01 00 00
+[18:32:55] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2D 01 00 00 00 09 00 00 00 00 00 00 00 01 01 00 00
+[18:32:55] [BLE_ACK] cmd=PING seq=46 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:32:56] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2F 01 00 00 00 0A 00 00 00 00 00 00 00 01 01 00 00
+[18:32:57] [ONLINE_HOST_STAT] sid=1 why=run cb=385 bytes=93388 seq=647 ft=0x12 rid=11 off=11856 gap=14.2/479.8 q=32/59/651.6 parse=0.0 save=752.1 ack=56.0/5.5/0 ui=0.0/169.6 log=0.1 loop=25.9 storage=0.2/751.5 saved_to_ack=0.9 ui_work=10.2 save_rid=6 save_ok=1 save_wall=751.3 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.5,record_open:0.5,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.4,header_encode:0.1,header_open:0.3,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:744.1,header_cleanup:0.4,metadata_update:0.1,metadata_encode:0.4,metadata_open:0.7,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.1,metadata_cleanup:0.2,other:0.8
+[18:32:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 30 01 00 00 00 0B 00 00 00 00 00 00 00 01 01 00 00
+[18:32:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 31 01 00 00 00 0C 00 00 00 00 00 00 00 01 01 00 00
+[18:32:59] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 32 01 00 00 00 0D 00 00 00 00 00 00 00 01 01 00 00
+[18:32:59] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 33 01 00 00 00 0E 00 00 00 00 00 00 00 01 01 00 00
+[18:33:00] [BLE_ACK] cmd=PING seq=52 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:00] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 35 01 00 00 00 0F 00 00 00 00 00 00 00 01 01 00 00
+[18:33:01] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 36 01 00 00 00 10 00 00 00 00 00 00 00 01 01 00 00
+[18:33:02] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 37 01 00 00 00 11 00 00 00 00 00 00 00 01 01 00 00
+[18:33:02] [ONLINE_HOST_STAT] sid=1 why=run cb=380 bytes=92064 seq=1058 ft=0x12 rid=18 off=11856 gap=13.2/435.0 q=1/59/530.0 parse=0.1 save=868.1 ack=78.6/6.6/0 ui=0.0/199.4 log=0.0 loop=11.4 storage=0.1/867.4 saved_to_ack=1.0 ui_work=8.0 save_rid=11 save_ok=1 save_wall=867.3 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.4,record_open:0.4,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:860.4,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.7,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:1.6,metadata_cleanup:0.2,other:1.0
+[18:33:03] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 38 01 00 00 00 12 00 00 00 00 00 00 00 01 01 00 00
+[18:33:03] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 39 01 00 00 00 13 00 00 00 00 00 00 00 01 01 00 00
+[18:33:04] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 3A 01 00 00 00 14 00 00 00 00 00 00 00 01 01 00 00
+[18:33:05] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 3B 01 00 00 00 15 00 00 00 00 00 00 00 01 01 00 00
+[18:33:05] [BLE_ACK] cmd=PING seq=60 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:06] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 3D 01 00 00 00 16 00 00 00 00 00 00 00 01 01 00 00
+[18:33:06] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 3E 01 00 00 00 17 00 00 00 00 00 00 00 01 01 00 00
+[18:33:07] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 3F 01 00 00 00 18 00 00 00 00 00 00 00 01 01 00 00
+[18:33:07] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=1412 ft=0x15 rid=24 off=11856 gap=14.2/450.6 q=0/59/799.9 parse=0.1 save=802.8 ack=57.5/5.1/0 ui=0.0/69.0 log=0.0 loop=23.9 storage=0.1/801.9 saved_to_ack=1.0 ui_work=6.6 save_rid=18 save_ok=1 save_wall=801.8 save_cpu=0.0 save_slow=record_open save_steps=validate:0.0,record_dir:0.4,record_open:794.9,record_write:0.3,record_flush:0.0,record_verify:0.0,record_replace:0.6,header_encode:0.2,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:1.2,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.5,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:1.1,metadata_cleanup:0.1,other:0.9
+[18:33:08] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 40 01 00 00 00 19 00 00 00 00 00 00 00 01 01 00 00
+[18:33:09] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 41 01 00 00 00 1A 00 00 00 00 00 00 00 01 01 00 00
+[18:33:09] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 42 01 00 00 00 1B 00 00 00 00 00 00 00 01 01 00 00
+[18:33:10] [BLE_ACK] cmd=PING seq=67 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:10] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 44 01 00 00 00 1C 00 00 00 00 00 00 00 01 01 00 00
+[18:33:11] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 45 01 00 00 00 1D 00 00 00 00 00 00 00 01 01 00 00
+[18:33:12] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 46 01 00 00 00 1E 00 00 00 00 00 00 00 01 01 00 00
+[18:33:12] [ONLINE_HOST_STAT] sid=1 why=run cb=378 bytes=91680 seq=1790 ft=0x12 rid=31 off=4992 gap=13.7/434.3 q=0/1/65.5 parse=0.1 save=94.2 ack=69.2/6.9/0 ui=0.1/69.8 log=0.0 loop=18.8 storage=0.2/93.4 saved_to_ack=0.8 ui_work=7.9 save_rid=28 save_ok=1 save_wall=93.3 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.6,record_write:0.2,record_flush:0.0,record_verify:0.1,record_replace:0.6,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:86.2,header_cleanup:0.3,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:1.4,metadata_cleanup:0.1,other:1.0
+[18:33:13] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 47 01 00 00 00 1F 00 00 00 00 00 00 00 01 01 00 00
+[18:33:13] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 48 01 00 00 00 20 00 00 00 00 00 00 00 01 01 00 00
+[18:33:14] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 49 01 00 00 00 21 00 00 00 00 00 00 00 01 01 00 00
+[18:33:15] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 4A 01 00 00 00 22 00 00 00 00 00 00 00 01 01 00 00
+[18:33:15] [BLE_ACK] cmd=PING seq=75 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:16] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 4C 01 00 00 00 23 00 00 00 00 00 00 00 01 01 00 00
+[18:33:17] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 4D 01 00 00 00 24 00 00 00 00 00 00 00 01 01 00 00
+[18:33:17] [BLE_BATTERY] battery_notify percent=72
+[18:33:17] [ONLINE_HOST_STAT] sid=1 why=run cb=386 bytes=93600 seq=2176 ft=0x12 rid=37 off=11856 gap=13.0/462.7 q=0/2/0.4 parse=0.2 save=121.6 ack=42.0/6.6/0 ui=0.0/122.7 log=0.1 loop=20.0 storage=0.2/120.8 saved_to_ack=0.9 ui_work=10.1 save_rid=32 save_ok=1 save_wall=120.6 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.7,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.7,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:111.2,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.9,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.9,metadata_cleanup:0.3,other:1.2
+[18:33:17] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 4E 01 00 00 00 25 00 00 00 00 00 00 00 01 01 00 00
+[18:33:18] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 4F 01 00 00 00 26 00 00 00 00 00 00 00 01 01 00 00
+[18:33:19] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 50 01 00 00 00 27 00 00 00 00 00 00 00 01 01 00 00
+[18:33:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 51 01 00 00 00 28 00 00 00 00 00 00 00 01 01 00 00
+[18:33:20] [BLE_ACK] cmd=PING seq=82 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 53 01 00 00 00 29 00 00 00 00 00 00 00 01 01 00 00
+[18:33:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 54 01 00 00 00 2A 00 00 00 00 00 00 00 01 01 00 00
+[18:33:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 55 01 00 00 00 2B 00 00 00 00 00 00 00 01 01 00 00
+[18:33:22] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=2529 ft=0x15 rid=43 off=11856 gap=13.6/435.1 q=0/3/5.2 parse=0.1 save=21.7 ack=63.9/7.9/0 ui=0.0/179.0 log=0.0 loop=22.6 storage=0.2/21.2 saved_to_ack=0.9 ui_work=8.8 save_rid=38 save_ok=1 save_wall=21.1 save_cpu=15.6 save_slow=header_open save_steps=validate:0.0,record_dir:0.7,record_open:0.8,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.3,header_encode:0.2,header_open:11.8,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:1.3,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.4,metadata_write:0.0,metadata_flush:0.1,metadata_verify:0.1,metadata_replace:1.6,metadata_cleanup:0.1,other:1.6
+[18:33:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 56 01 00 00 00 2C 00 00 00 00 00 00 00 01 01 00 00
+[18:33:24] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 57 01 00 00 00 2D 00 00 00 00 00 00 00 01 01 00 00
+[18:33:25] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 58 01 00 00 00 2E 00 00 00 00 00 00 00 01 01 00 00
+[18:33:25] [BLE_ACK] cmd=PING seq=89 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:25] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5A 01 00 00 00 2F 00 00 00 00 00 00 00 01 01 00 00
+[18:33:26] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5B 01 00 00 00 30 00 00 00 00 00 00 00 01 01 00 00
+[18:33:27] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5C 01 00 00 00 31 00 00 00 00 00 00 00 01 01 00 00
+[18:33:27] [ONLINE_HOST_STAT] sid=1 why=run cb=388 bytes=94120 seq=2917 ft=0x12 rid=50 off=7072 gap=13.8/449.8 q=0/2/0.4 parse=0.2 save=20.5 ack=43.1/15.5/0 ui=0.0/203.6 log=0.0 loop=12.2 storage=0.1/20.0 saved_to_ack=1.0 ui_work=11.1 save_rid=49 save_ok=1 save_wall=19.9 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.9,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.2,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:10.7,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:1.8,metadata_cleanup:0.1,other:1.2
+[18:33:28] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5D 01 00 00 00 32 00 00 00 00 00 00 00 01 01 00 00
+[18:33:29] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5E 01 00 00 00 33 00 00 00 00 00 00 00 01 01 00 00
+[18:33:29] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 5F 01 00 00 00 34 00 00 00 00 00 00 00 01 01 00 00
+[18:33:30] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 60 01 00 00 00 35 00 00 00 00 00 00 00 01 01 00 00
+[18:33:30] [BLE_ACK] cmd=PING seq=97 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:31] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 62 01 00 00 00 36 00 00 00 00 00 00 00 01 01 00 00
+[18:33:32] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 63 01 00 00 00 37 00 00 00 00 00 00 00 01 01 00 00
+[18:33:33] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 64 01 00 00 00 38 00 00 00 00 00 00 00 01 01 00 00
+[18:33:33] [ONLINE_HOST_STAT] sid=1 why=run cb=376 bytes=91160 seq=3293 ft=0x12 rid=56 off=11856 gap=13.2/478.2 q=0/1/0.3 parse=0.2 save=21.4 ack=44.6/6.6/0 ui=0.0/218.6 log=0.1 loop=23.8 storage=0.1/20.7 saved_to_ack=1.0 ui_work=7.0 save_rid=56 save_ok=1 save_wall=20.5 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:1.0,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.1,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:10.8,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:1.2,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.1,metadata_cleanup:0.3,other:1.3
+[18:33:33] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 65 01 00 00 00 39 00 00 00 00 00 00 00 01 01 00 00
+[18:33:34] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 66 01 00 00 00 3A 00 00 00 00 00 00 00 01 01 00 00
+[18:33:35] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 67 01 00 00 00 3B 00 00 00 00 00 00 00 01 01 00 00
+[18:33:35] [BLE_ACK] cmd=PING seq=104 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 69 01 00 00 00 3C 00 00 00 00 00 00 00 01 01 00 00
+[18:33:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6A 01 00 00 00 3D 00 00 00 00 00 00 00 01 01 00 00
+[18:33:37] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6B 01 00 00 00 3E 00 00 00 00 00 00 00 01 01 00 00
+[18:33:38] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=3646 ft=0x12 rid=62 off=11856 gap=13.5/473.9 q=0/1/0.3 parse=0.1 save=18.8 ack=44.8/7.4/0 ui=0.0/100.9 log=0.1 loop=23.8 storage=0.2/18.1 saved_to_ack=0.9 ui_work=9.7 save_rid=61 save_ok=1 save_wall=18.0 save_cpu=15.6 save_slow=header_open save_steps=validate:0.0,record_dir:0.7,record_open:0.7,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.5,header_encode:0.1,header_open:9.7,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:1.0,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.6,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:1.3,metadata_cleanup:0.2,other:1.0
+[18:33:38] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6C 01 00 00 00 3F 00 00 00 00 00 00 00 01 01 00 00
+[18:33:39] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6D 01 00 00 00 40 00 00 00 00 00 00 00 01 01 00 00
+[18:33:40] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6E 01 00 00 00 41 00 00 00 00 00 00 00 01 01 00 00
+[18:33:40] [BLE_ACK] cmd=PING seq=111 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:41] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 70 01 00 00 00 42 00 00 00 00 00 00 00 01 01 00 00
+[18:33:41] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 71 01 00 00 00 43 00 00 00 00 00 00 00 01 01 00 00
+[18:33:42] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 72 01 00 00 00 44 00 00 00 00 00 00 00 01 01 00 00
+[18:33:43] [ONLINE_HOST_STAT] sid=1 why=run cb=397 bytes=96316 seq=4043 ft=0x12 rid=69 off=8944 gap=13.8/465.3 q=0/1/0.3 parse=0.1 save=19.6 ack=45.4/6.6/0 ui=0.0/209.4 log=0.0 loop=15.9 storage=0.1/18.9 saved_to_ack=0.9 ui_work=6.5 save_rid=63 save_ok=1 save_wall=18.7 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.4,record_open:0.4,record_write:0.3,record_flush:0.0,record_verify:0.0,record_replace:1.1,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:10.4,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.1,metadata_cleanup:0.2,other:1.1
+[18:33:43] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 73 01 00 00 00 45 00 00 00 00 00 00 00 01 01 00 00
+[18:33:44] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 74 01 00 00 00 46 00 00 00 00 00 00 00 01 01 00 00
+[18:33:45] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 75 01 00 00 00 47 00 00 00 00 00 00 00 01 01 00 00
+[18:33:45] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 76 01 00 00 00 48 00 00 00 00 00 00 00 01 01 00 00
+[18:33:46] [BLE_ACK] cmd=PING seq=119 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:46] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 78 01 00 00 00 49 00 00 00 00 00 00 00 01 01 00 00
+[18:33:47] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 79 01 00 00 00 4A 00 00 00 00 00 00 00 01 01 00 00
+[18:33:47] [BLE_BATTERY] battery_notify percent=71
+[18:33:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7A 01 00 00 00 4B 00 00 00 00 00 00 00 01 01 00 00
+[18:33:48] [ONLINE_HOST_STAT] sid=1 why=run cb=367 bytes=88964 seq=4410 ft=0x12 rid=75 off=11856 gap=13.3/431.4 q=0/1/0.5 parse=0.1 save=20.4 ack=61.2/6.5/0 ui=0.0/85.4 log=0.0 loop=13.9 storage=0.2/19.8 saved_to_ack=1.1 ui_work=10.0 save_rid=69 save_ok=1 save_wall=19.7 save_cpu=31.2 save_slow=header_open save_steps=validate:0.0,record_dir:0.7,record_open:0.7,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.2,header_encode:0.1,header_open:9.5,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:2.3,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.4,metadata_write:0.0,metadata_flush:0.1,metadata_verify:0.1,metadata_replace:1.8,metadata_cleanup:0.1,other:1.4
+[18:33:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7B 01 00 00 00 4C 00 00 00 00 00 00 00 01 01 00 00
+[18:33:49] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7C 01 00 00 00 4D 00 00 00 00 00 00 00 01 01 00 00
+[18:33:50] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7D 01 00 00 00 4E 00 00 00 00 00 00 00 01 01 00 00
+[18:33:51] [BLE_ACK] cmd=PING seq=126 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:51] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7F 01 00 00 00 4F 00 00 00 00 00 00 00 01 01 00 00
+[18:33:52] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 80 01 00 00 00 50 00 00 00 00 00 00 00 01 01 00 00
+[18:33:53] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 81 01 00 00 00 51 00 00 00 00 00 00 00 01 01 00 00
+[18:33:53] [ONLINE_HOST_STAT] sid=1 why=run cb=356 bytes=86312 seq=4766 ft=0x12 rid=82 off=416 gap=14.9/465.8 q=0/1/49.5 parse=0.1 save=19.6 ack=88.7/21.7/0 ui=0.0/82.3 log=0.0 loop=18.3 storage=0.2/21.0 saved_to_ack=1.0 ui_work=6.8 save_rid=77 save_ok=1 save_wall=18.9 save_cpu=31.2 save_slow=record_replace save_steps=validate:0.0,record_dir:0.6,record_open:0.6,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:10.1,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:1.7,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.1,metadata_open:1.1,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:1.7,metadata_cleanup:0.1,other:1.0
+[18:33:53] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 82 01 00 00 00 52 00 00 00 00 00 00 00 01 01 00 00
+[18:33:54] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 83 01 00 00 00 53 00 00 00 00 00 00 00 01 01 00 00
+[18:33:55] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 84 01 00 00 00 54 00 00 00 00 00 00 00 01 01 00 00
+[18:33:56] [BLE_ACK] cmd=PING seq=133 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:33:56] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 86 01 00 00 00 55 00 00 00 00 00 00 00 01 01 00 00
+[18:33:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 87 01 00 00 00 56 00 00 00 00 00 00 00 01 01 00 00
+[18:33:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 88 01 00 00 00 57 00 00 00 00 00 00 00 01 01 00 00
+[18:33:58] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=5119 ft=0x12 rid=88 off=416 gap=14.0/461.5 q=0/1/3.8 parse=0.1 save=18.0 ack=88.8/6.5/0 ui=0.0/37.8 log=0.0 loop=25.1 storage=0.2/17.4 saved_to_ack=1.1 ui_work=6.9 save_rid=83 save_ok=1 save_wall=17.3 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.6,record_open:0.4,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:10.5,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.1,metadata_replace:1.7,metadata_cleanup:0.1,other:0.9
+[18:33:58] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 89 01 00 00 00 58 00 00 00 00 00 00 00 01 01 00 00
+[18:33:59] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 8A 01 00 00 00 59 00 00 00 00 00 00 00 01 01 00 00
+[18:34:00] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 8B 01 00 00 00 5A 00 00 00 00 00 00 00 01 01 00 00
+[18:34:01] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 8C 01 00 00 00 5B 00 00 00 00 00 00 00 01 01 00 00
+[18:34:01] [BLE_ACK] cmd=PING seq=141 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:01] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 8E 01 00 00 00 5C 00 00 00 00 00 00 00 01 01 00 00
+[18:34:02] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 8F 01 00 00 00 5D 00 00 00 00 00 00 00 01 01 00 00
+[18:34:03] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 90 01 00 00 00 5E 00 00 00 00 00 00 00 01 01 00 00
+[18:34:03] [ONLINE_HOST_STAT] sid=1 why=run cb=408 bytes=98968 seq=5527 ft=0x12 rid=94 off=11856 gap=12.1/479.7 q=0/1/0.3 parse=0.1 save=21.8 ack=54.4/6.3/0 ui=0.1/199.7 log=0.1 loop=24.4 storage=0.2/21.0 saved_to_ack=1.0 ui_work=6.6 save_rid=94 save_ok=1 save_wall=20.9 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.8,record_open:0.8,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:2.4,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:10.0,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.4,metadata_write:0.0,metadata_flush:0.1,metadata_verify:0.1,metadata_replace:2.7,metadata_cleanup:0.2,other:1.6
+[18:34:04] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 91 01 00 00 00 5F 00 00 00 00 00 00 00 01 01 00 00
+[18:34:05] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 92 01 00 00 00 60 00 00 00 00 00 00 00 01 01 00 00
+[18:34:05] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 93 01 00 00 00 61 00 00 00 00 00 00 00 01 01 00 00
+[18:34:06] [BLE_ACK] cmd=PING seq=148 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:06] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 95 01 00 00 00 62 00 00 00 00 00 00 00 01 01 00 00
+[18:34:07] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 96 01 00 00 00 63 00 00 00 00 00 00 00 01 01 00 00
+[18:34:08] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 97 01 00 00 00 64 00 00 00 00 00 00 00 01 01 00 00
+[18:34:08] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=5880 ft=0x12 rid=100 off=11856 gap=13.6/461.4 q=0/1/0.3 parse=0.1 save=21.5 ack=60.4/5.8/0 ui=0.1/65.6 log=0.0 loop=23.1 storage=0.1/20.8 saved_to_ack=1.0 ui_work=8.8 save_rid=98 save_ok=1 save_wall=20.7 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.6,record_open:0.6,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:0.8,header_encode:0.1,header_open:0.9,header_write:0.0,header_flush:0.4,header_verify:0.1,header_replace:10.5,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.9,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.8,metadata_cleanup:0.2,other:1.3
+[18:34:08] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 98 01 00 00 00 65 00 00 00 00 00 00 00 01 01 00 00
+[18:34:09] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 99 01 00 00 00 66 00 00 00 00 00 00 00 01 01 00 00
+[18:34:10] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 9A 01 00 00 00 67 00 00 00 00 00 00 00 01 01 00 00
+[18:34:11] [BLE_ACK] cmd=PING seq=155 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:11] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 9C 01 00 00 00 68 00 00 00 00 00 00 00 01 01 00 00
+[18:34:12] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 9D 01 00 00 00 69 00 00 00 00 00 00 00 01 01 00 00
+[18:34:12] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 9E 01 00 00 00 6A 00 00 00 00 00 00 00 01 01 00 00
+[18:34:13] [ONLINE_HOST_STAT] sid=1 why=run cb=386 bytes=93632 seq=6266 ft=0x12 rid=107 off=6656 gap=14.0/477.7 q=0/1/38.9 parse=0.1 save=18.5 ack=63.1/8.5/0 ui=0.0/194.8 log=0.1 loop=17.3 storage=0.2/17.8 saved_to_ack=1.0 ui_work=8.6 save_rid=106 save_ok=1 save_wall=17.7 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.4,record_write:0.2,record_flush:0.0,record_verify:0.1,record_replace:0.7,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:9.7,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.1,metadata_cleanup:0.1,other:1.1
+[18:34:13] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 9F 01 00 00 00 6B 00 00 00 00 00 00 00 01 01 00 00
+[18:34:14] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A0 01 00 00 00 6C 00 00 00 00 00 00 00 01 01 00 00
+[18:34:15] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A1 01 00 00 00 6D 00 00 00 00 00 00 00 01 01 00 00
+[18:34:16] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A2 01 00 00 00 6E 00 00 00 00 00 00 00 01 01 00 00
+[18:34:16] [BLE_ACK] cmd=PING seq=163 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:16] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A4 01 00 00 00 6F 00 00 00 00 00 00 00 01 01 00 00
+[18:34:18] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A5 01 00 00 00 70 00 00 00 00 00 00 00 01 01 00 00
+[18:34:18] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A6 01 00 00 00 71 00 00 00 00 00 00 00 01 01 00 00
+[18:34:18] [ONLINE_HOST_STAT] sid=1 why=run cb=379 bytes=91820 seq=6645 ft=0x15 rid=113 off=11856 gap=13.4/471.3 q=0/2/0.3 parse=0.1 save=19.6 ack=57.5/6.9/0 ui=0.0/86.5 log=0.1 loop=25.0 storage=0.2/18.8 saved_to_ack=1.0 ui_work=8.6 save_rid=109 save_ok=1 save_wall=18.6 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.5,record_open:0.4,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:10.4,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.2,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.1,metadata_cleanup:0.3,other:1.0
+[18:34:19] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A7 01 00 00 00 72 00 00 00 00 00 00 00 01 01 00 00
+[18:34:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A8 01 00 00 00 73 00 00 00 00 00 00 00 01 01 00 00
+[18:34:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 A9 01 00 00 00 74 00 00 00 00 00 00 00 01 01 00 00
+[18:34:21] [BLE_ACK] cmd=PING seq=170 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 AB 01 00 00 00 75 00 00 00 00 00 00 00 01 01 00 00
+[18:34:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 AC 01 00 00 00 76 00 00 00 00 00 00 00 01 01 00 00
+[18:34:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 AD 01 00 00 00 77 00 00 00 00 00 00 00 01 01 00 00
+[18:34:23] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=6998 ft=0x15 rid=119 off=11856 gap=14.2/428.7 q=0/4/0.5 parse=0.2 save=18.5 ack=53.5/9.1/0 ui=0.0/202.8 log=0.1 loop=22.4 storage=0.3/17.6 saved_to_ack=1.3 ui_work=29.6 save_rid=119 save_ok=1 save_wall=17.2 save_cpu=15.6 save_slow=metadata_replace save_steps=validate:0.0,record_dir:0.9,record_open:0.7,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.5,header_encode:0.2,header_open:1.2,header_write:0.1,header_flush:0.5,header_verify:0.2,header_replace:3.1,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.3,metadata_write:0.1,metadata_flush:0.4,metadata_verify:0.3,metadata_replace:3.2,metadata_cleanup:0.3,other:2.2
+[18:34:24] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 AE 01 00 00 00 78 00 00 00 00 00 00 00 01 01 00 00
+[18:34:25] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 AF 01 00 00 00 79 00 00 00 00 00 00 00 01 01 00 00
+[18:34:25] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B0 01 00 00 00 7A 00 00 00 00 00 00 00 01 01 00 00
+[18:34:26] [BLE_ACK] cmd=PING seq=177 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:26] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B2 01 00 00 00 7B 00 00 00 00 00 00 00 01 01 00 00
+[18:34:27] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B3 01 00 00 00 7C 00 00 00 00 00 00 00 01 01 00 00
+[18:34:28] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B4 01 00 00 00 7D 00 00 00 00 00 00 00 01 01 00 00
+[18:34:28] [ONLINE_HOST_STAT] sid=1 why=run cb=387 bytes=93876 seq=7385 ft=0x12 rid=126 off=6864 gap=13.2/444.9 q=0/1/0.4 parse=0.4 save=38.0 ack=54.6/8.5/0 ui=0.0/103.5 log=0.0 loop=22.5 storage=0.3/37.0 saved_to_ack=1.2 ui_work=13.1 save_rid=121 save_ok=1 save_wall=36.8 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.8,record_open:0.5,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:1.8,header_encode:0.2,header_open:1.4,header_write:0.0,header_flush:0.4,header_verify:0.2,header_replace:22.7,header_cleanup:0.4,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.2,metadata_write:0.1,metadata_flush:0.4,metadata_verify:0.3,metadata_replace:3.1,metadata_cleanup:0.4,other:2.3
+[18:34:29] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B5 01 00 00 00 7E 00 00 00 00 00 00 00 01 01 00 00
+[18:34:29] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B6 01 00 00 00 7F 00 00 00 00 00 00 00 01 01 00 00
+[18:34:30] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B7 01 00 00 00 80 00 00 00 00 00 00 00 01 01 00 00
+[18:34:31] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 B8 01 00 00 00 81 00 00 00 00 00 00 00 01 01 00 00
+[18:34:31] [BLE_ACK] cmd=PING seq=185 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:32] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BA 01 00 00 00 82 00 00 00 00 00 00 00 01 01 00 00
+[18:34:32] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BB 01 00 00 00 83 00 00 00 00 00 00 00 01 01 00 00
+[18:34:33] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BC 01 00 00 00 84 00 00 00 00 00 00 00 01 01 00 00
+[18:34:33] [ONLINE_HOST_STAT] sid=1 why=run cb=377 bytes=91404 seq=7762 ft=0x12 rid=132 off=11856 gap=13.2/435.7 q=0/2/7.4 parse=0.2 save=16.6 ack=85.7/8.1/0 ui=0.2/188.4 log=0.1 loop=15.3 storage=0.2/16.1 saved_to_ack=1.0 ui_work=11.2 save_rid=129 save_ok=1 save_wall=16.0 save_cpu=15.6 save_slow=metadata_replace save_steps=validate:0.0,record_dir:0.6,record_open:0.5,record_write:0.2,record_flush:0.0,record_verify:0.1,record_replace:0.9,header_encode:0.1,header_open:2.4,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:2.7,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:1.1,metadata_write:0.0,metadata_flush:0.4,metadata_verify:0.3,metadata_replace:3.6,metadata_cleanup:0.2,other:1.5
+[18:34:34] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BD 01 00 00 00 85 00 00 00 00 00 00 00 01 01 00 00
+[18:34:35] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BE 01 00 00 00 86 00 00 00 00 00 00 00 01 01 00 00
+[18:34:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 BF 01 00 00 00 87 00 00 00 00 00 00 00 01 01 00 00
+[18:34:36] [BLE_ACK] cmd=PING seq=192 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C1 01 00 00 00 88 00 00 00 00 00 00 00 01 01 00 00
+[18:34:38] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C2 01 00 00 00 89 00 00 00 00 00 00 00 01 01 00 00
+[18:34:38] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C3 01 00 00 00 8A 00 00 00 00 00 00 00 01 01 00 00
+[18:34:38] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=8115 ft=0x15 rid=138 off=11856 gap=13.9/448.0 q=0/5/1.0 parse=0.1 save=19.4 ack=78.5/7.2/0 ui=0.1/64.6 log=0.1 loop=24.1 storage=0.2/18.6 saved_to_ack=0.9 ui_work=10.6 save_rid=133 save_ok=1 save_wall=18.4 save_cpu=15.6 save_slow=metadata_replace save_steps=validate:0.0,record_dir:1.1,record_open:1.0,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.4,header_encode:0.1,header_open:0.8,header_write:0.0,header_flush:0.3,header_verify:0.1,header_replace:4.2,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.1,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:4.4,metadata_cleanup:0.4,other:1.8
+[18:34:39] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C4 01 00 00 00 8B 00 00 00 00 00 00 00 01 01 00 00
+[18:34:40] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C5 01 00 00 00 8C 00 00 00 00 00 00 00 01 01 00 00
+[18:34:40] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C6 01 00 00 00 8D 00 00 00 00 00 00 00 01 01 00 00
+[18:34:41] [BLE_ACK] cmd=PING seq=199 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:41] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C8 01 00 00 00 8E 00 00 00 00 00 00 00 01 01 00 00
+[18:34:42] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 C9 01 00 00 00 8F 00 00 00 00 00 00 00 01 01 00 00
+[18:34:43] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 CA 01 00 00 00 90 00 00 00 00 00 00 00 01 01 00 00
+[18:34:43] [ONLINE_HOST_STAT] sid=1 why=run cb=355 bytes=86068 seq=8470 ft=0x12 rid=145 off=208 gap=14.7/434.2 q=0/4/0.2 parse=0.2 save=19.9 ack=63.3/7.6/0 ui=0.1/195.9 log=0.0 loop=17.9 storage=0.2/19.1 saved_to_ack=1.1 ui_work=7.2 save_rid=143 save_ok=1 save_wall=19.0 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.8,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.4,header_encode:0.1,header_open:0.9,header_write:0.0,header_flush:0.3,header_verify:0.1,header_replace:7.5,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.1,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.5,metadata_cleanup:0.2,other:1.8
+[18:34:44] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 CB 01 00 00 00 91 00 00 00 00 00 00 00 01 01 00 00
+[18:34:44] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 CC 01 00 00 00 92 00 00 00 00 00 00 00 01 01 00 00
+[18:34:45] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 CD 01 00 00 00 93 00 00 00 00 00 00 00 01 01 00 00
+[18:34:46] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 CE 01 00 00 00 94 00 00 00 00 00 00 00 01 01 00 00
+[18:34:46] [BLE_ACK] cmd=PING seq=207 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:47] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D0 01 00 00 00 95 00 00 00 00 00 00 00 01 01 00 00
+[18:34:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D1 01 00 00 00 96 00 00 00 00 00 00 00 01 01 00 00
+[18:34:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D2 01 00 00 00 97 00 00 00 00 00 00 00 01 01 00 00
+[18:34:49] [ONLINE_HOST_STAT] sid=1 why=run cb=409 bytes=99212 seq=8879 ft=0x12 rid=151 off=11856 gap=12.3/463.2 q=0/1/0.7 parse=0.1 save=75.2 ack=45.3/7.6/0 ui=0.0/161.2 log=0.1 loop=29.5 storage=0.2/74.5 saved_to_ack=1.0 ui_work=12.1 save_rid=150 save_ok=1 save_wall=74.4 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.7,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.0,header_encode:0.1,header_open:0.8,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:64.7,header_cleanup:0.2,metadata_update:0.0,metadata_encode:0.1,metadata_open:0.6,metadata_write:0.1,metadata_flush:0.3,metadata_verify:0.1,metadata_replace:2.1,metadata_cleanup:0.6,other:1.4
+[18:34:49] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D3 01 00 00 00 98 00 00 00 00 00 00 00 01 01 00 00
+[18:34:50] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D4 01 00 00 00 99 00 00 00 00 00 00 00 01 01 00 00
+[18:34:51] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D5 01 00 00 00 9A 00 00 00 00 00 00 00 01 01 00 00
+[18:34:51] [BLE_ACK] cmd=PING seq=214 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:52] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D7 01 00 00 00 9B 00 00 00 00 00 00 00 01 01 00 00
+[18:34:53] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D8 01 00 00 00 9C 00 00 00 00 00 00 00 01 01 00 00
+[18:34:53] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 D9 01 00 00 00 9D 00 00 00 00 00 00 00 01 01 00 00
+[18:34:54] [ONLINE_HOST_STAT] sid=1 why=run cb=354 bytes=85824 seq=9233 ft=0x12 rid=158 off=0 gap=14.8/475.4 q=0/3/59.4 parse=0.1 save=120.3 ack=61.3/14.4/0 ui=0.0/168.8 log=0.0 loop=24.5 storage=0.1/119.7 saved_to_ack=0.7 ui_work=6.8 save_rid=156 save_ok=1 save_wall=119.6 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.8,record_write:0.3,record_flush:0.0,record_verify:0.0,record_replace:1.4,header_encode:0.1,header_open:0.7,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:108.7,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.2,metadata_open:1.1,metadata_write:0.1,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.7,metadata_cleanup:0.2,other:1.6
+[18:34:54] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 DA 01 00 00 00 9E 00 00 00 00 00 00 00 01 01 00 00
+[18:34:55] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 DB 01 00 00 00 9F 00 00 00 00 00 00 00 01 01 00 00
+[18:34:56] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 DC 01 00 00 00 A0 00 00 00 00 00 00 00 01 01 00 00
+[18:34:56] [BLE_ACK] cmd=PING seq=221 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:34:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 DE 01 00 00 00 A1 00 00 00 00 00 00 00 01 01 00 00
+[18:34:57] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 DF 01 00 00 00 A2 00 00 00 00 00 00 00 01 01 00 00
+[18:34:58] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E0 01 00 00 00 A3 00 00 00 00 00 00 00 01 01 00 00
+[18:34:59] [ONLINE_HOST_STAT] sid=1 why=run cb=395 bytes=95828 seq=9628 ft=0x12 rid=164 off=8736 gap=12.8/442.0 q=0/4/1.3 parse=0.1 save=31.3 ack=49.6/17.7/0 ui=0.1/197.3 log=0.1 loop=18.8 storage=0.8/30.4 saved_to_ack=1.2 ui_work=21.2 save_rid=160 save_ok=1 save_wall=30.2 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.7,record_open:0.7,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.1,header_encode:0.1,header_open:0.6,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:19.1,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:1.0,metadata_write:0.1,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:2.7,metadata_cleanup:0.2,other:1.7
+[18:34:59] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E1 01 00 00 00 A4 00 00 00 00 00 00 00 01 01 00 00
+[18:35:00] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E2 01 00 00 00 A5 00 00 00 00 00 00 00 01 01 00 00
+[18:35:00] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E3 01 00 00 00 A6 00 00 00 00 00 00 00 01 01 00 00
+[18:35:01] [BLE_ACK] cmd=PING seq=228 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:01] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E5 01 00 00 00 A7 00 00 00 00 00 00 00 01 01 00 00
+[18:35:02] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E6 01 00 00 00 A8 00 00 00 00 00 00 00 01 01 00 00
+[18:35:03] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E7 01 00 00 00 A9 00 00 00 00 00 00 00 01 01 00 00
+[18:35:04] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E8 01 00 00 00 AA 00 00 00 00 00 00 00 01 01 00 00
+[18:35:04] [ONLINE_HOST_STAT] sid=1 why=run cb=368 bytes=89208 seq=9996 ft=0x12 rid=170 off=11856 gap=13.2/465.6 q=0/3/6.6 parse=0.2 save=27.1 ack=91.4/7.5/0 ui=0.0/101.5 log=0.1 loop=27.5 storage=0.2/25.7 saved_to_ack=1.5 ui_work=29.0 save_rid=167 save_ok=1 save_wall=25.5 save_cpu=31.2 save_slow=header_open save_steps=validate:0.0,record_dir:0.7,record_open:1.0,record_write:0.4,record_flush:0.0,record_verify:0.1,record_replace:1.2,header_encode:0.2,header_open:9.5,header_write:0.0,header_flush:0.4,header_verify:0.4,header_replace:3.6,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.4,metadata_open:1.1,metadata_write:0.1,metadata_flush:0.4,metadata_verify:0.2,metadata_replace:3.2,metadata_cleanup:0.3,other:1.8
+[18:35:04] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 E9 01 00 00 00 AB 00 00 00 00 00 00 00 01 01 00 00
+[18:35:05] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 EA 01 00 00 00 AC 00 00 00 00 00 00 00 01 01 00 00
+[18:35:06] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 EB 01 00 00 00 AD 00 00 00 00 00 00 00 01 01 00 00
+[18:35:06] [BLE_ACK] cmd=PING seq=236 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:07] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 ED 01 00 00 00 AE 00 00 00 00 00 00 00 01 01 00 00
+[18:35:08] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 EE 01 00 00 00 AF 00 00 00 00 00 00 00 01 01 00 00
+[18:35:08] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 EF 01 00 00 00 B0 00 00 00 00 00 00 00 01 01 00 00
+[18:35:09] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=10349 ft=0x12 rid=176 off=11856 gap=13.8/478.1 q=0/5/0.4 parse=0.3 save=36.0 ack=76.7/8.4/0 ui=0.0/187.8 log=0.1 loop=23.5 storage=0.3/35.1 saved_to_ack=1.1 ui_work=28.3 save_rid=173 save_ok=1 save_wall=34.9 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.9,record_open:0.9,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.4,header_encode:0.3,header_open:1.2,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:11.1,header_cleanup:0.3,metadata_update:0.1,metadata_encode:11.0,metadata_open:0.9,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.8,metadata_cleanup:0.3,other:2.5
+[18:35:10] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F0 01 00 00 00 B1 00 00 00 00 00 00 00 01 01 00 00
+[18:35:10] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F1 01 00 00 00 B2 00 00 00 00 00 00 00 01 01 00 00
+[18:35:11] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F2 01 00 00 00 B3 00 00 00 00 00 00 00 01 01 00 00
+[18:35:11] [BLE_ACK] cmd=PING seq=243 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:12] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F4 01 00 00 00 B4 00 00 00 00 00 00 00 01 01 00 00
+[18:35:12] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F5 01 00 00 00 B5 00 00 00 00 00 00 00 01 01 00 00
+[18:35:13] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F6 01 00 00 00 B6 00 00 00 00 00 00 00 01 01 00 00
+[18:35:14] [ONLINE_HOST_STAT] sid=1 why=run cb=394 bytes=95584 seq=10743 ft=0x12 rid=183 off=8320 gap=13.9/404.5 q=0/2/2.1 parse=0.4 save=26.8 ack=76.1/10.2/0 ui=0.0/205.8 log=0.1 loop=25.3 storage=0.4/25.9 saved_to_ack=1.4 ui_work=33.5 save_rid=180 save_ok=1 save_wall=25.6 save_cpu=0.0 save_slow=metadata_replace save_steps=validate:0.0,record_dir:1.6,record_open:1.7,record_write:0.5,record_flush:0.0,record_verify:0.2,record_replace:2.0,header_encode:0.2,header_open:1.2,header_write:0.0,header_flush:0.4,header_verify:0.2,header_replace:4.9,header_cleanup:0.4,metadata_update:0.1,metadata_encode:0.4,metadata_open:1.4,metadata_write:0.1,metadata_flush:0.4,metadata_verify:0.3,metadata_replace:6.5,metadata_cleanup:0.5,other:2.7
+[18:35:14] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F7 01 00 00 00 B7 00 00 00 00 00 00 00 01 01 00 00
+[18:35:15] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F8 01 00 00 00 B8 00 00 00 00 00 00 00 01 01 00 00
+[18:35:16] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 F9 01 00 00 00 B9 00 00 00 00 00 00 00 01 01 00 00
+[18:35:16] [BLE_ACK] cmd=PING seq=250 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:16] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 FB 01 00 00 00 BA 00 00 00 00 00 00 00 01 01 00 00
+[18:35:17] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 FC 01 00 00 00 BB 00 00 00 00 00 00 00 01 01 00 00
+[18:35:18] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 FD 01 00 00 00 BC 00 00 00 00 00 00 00 01 01 00 00
+[18:35:19] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 FE 01 00 00 00 BD 00 00 00 00 00 00 00 01 01 00 00
+[18:35:19] [ONLINE_HOST_STAT] sid=1 why=run cb=370 bytes=89696 seq=11113 ft=0x12 rid=189 off=11856 gap=13.3/420.9 q=0/6/1.4 parse=0.1 save=44.6 ack=58.8/9.5/0 ui=0.1/137.8 log=0.1 loop=24.8 storage=3.6/40.2 saved_to_ack=1.5 ui_work=28.4 save_rid=187 save_ok=1 save_wall=40.0 save_cpu=15.6 save_slow=record_open save_steps=validate:0.0,record_dir:0.9,record_open:15.5,record_write:0.4,record_flush:0.0,record_verify:0.1,record_replace:1.1,header_encode:0.6,header_open:1.3,header_write:0.2,header_flush:0.6,header_verify:0.2,header_replace:9.4,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.3,metadata_open:0.9,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:4.0,metadata_cleanup:0.3,other:3.3
+[18:35:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 FF 01 00 00 00 BE 00 00 00 00 00 00 00 01 01 00 00
+[18:35:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 00 01 00 00 00 BF 00 00 00 00 00 00 00 01 01 00 00
+[18:35:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 01 01 00 00 00 C0 00 00 00 00 00 00 00 01 01 00 00
+[18:35:21] [BLE_ACK] cmd=PING seq=2 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 03 01 00 00 00 C1 00 00 00 00 00 00 00 01 01 00 00
+[18:35:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 04 01 00 00 00 C2 00 00 00 00 00 00 00 01 01 00 00
+[18:35:24] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 05 01 00 00 00 C3 00 00 00 00 00 00 00 01 01 00 00
+[18:35:24] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=11466 ft=0x12 rid=195 off=11856 gap=13.6/464.2 q=0/1/3.7 parse=0.1 save=23.4 ack=77.4/6.0/0 ui=0.0/207.6 log=0.0 loop=24.3 storage=0.1/22.6 saved_to_ack=1.1 ui_work=8.7 save_rid=192 save_ok=1 save_wall=22.4 save_cpu=31.2 save_slow=header_replace save_steps=validate:0.0,record_dir:0.9,record_open:0.8,record_write:0.3,record_flush:0.0,record_verify:0.1,record_replace:1.3,header_encode:0.1,header_open:0.9,header_write:0.0,header_flush:0.3,header_verify:0.3,header_replace:11.0,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:1.0,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.1,metadata_replace:2.3,metadata_cleanup:0.2,other:1.7
+[18:35:24] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 06 01 00 00 00 C4 00 00 00 00 00 00 00 01 01 00 00
+[18:35:25] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 07 01 00 00 00 C5 00 00 00 00 00 00 00 01 01 00 00
+[18:35:26] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 08 01 00 00 00 C6 00 00 00 00 00 00 00 01 01 00 00
+[18:35:27] [BLE_ACK] cmd=PING seq=9 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:27] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0A 01 00 00 00 C7 00 00 00 00 00 00 00 01 01 00 00
+[18:35:28] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0B 01 00 00 00 C8 00 00 00 00 00 00 00 01 01 00 00
+[18:35:28] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0C 01 00 00 00 C9 00 00 00 00 00 00 00 01 01 00 00
+[18:35:29] [ONLINE_HOST_STAT] sid=1 why=run cb=355 bytes=86068 seq=11821 ft=0x12 rid=202 off=208 gap=15.0/435.1 q=0/1/0.3 parse=0.0 save=21.0 ack=62.4/6.5/0 ui=0.0/55.9 log=0.0 loop=17.4 storage=0.1/20.2 saved_to_ack=1.0 ui_work=6.5 save_rid=198 save_ok=1 save_wall=20.0 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.4,record_open:0.5,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:10.2,header_cleanup:0.3,metadata_update:0.2,metadata_encode:0.1,metadata_open:1.1,metadata_write:0.0,metadata_flush:0.4,metadata_verify:0.2,metadata_replace:3.8,metadata_cleanup:0.3,other:1.0
+[18:35:30] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0D 01 00 00 00 CA 00 00 00 00 00 00 00 01 01 00 00
+[18:35:30] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0E 01 00 00 00 CB 00 00 00 00 00 00 00 01 01 00 00
+[18:35:31] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 0F 01 00 00 00 CC 00 00 00 00 00 00 00 01 01 00 00
+[18:35:32] [BLE_ACK] cmd=PING seq=16 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:32] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 11 01 00 00 00 CD 00 00 00 00 00 00 00 01 01 00 00
+[18:35:32] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 12 01 00 00 00 CE 00 00 00 00 00 00 00 01 01 00 00
+[18:35:33] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 13 01 00 00 00 CF 00 00 00 00 00 00 00 01 01 00 00
+[18:35:34] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 14 01 00 00 00 D0 00 00 00 00 00 00 00 01 01 00 00
+[18:35:34] [ONLINE_HOST_STAT] sid=1 why=run cb=409 bytes=99212 seq=12230 ft=0x12 rid=208 off=11856 gap=12.3/435.3 q=0/1/107.7 parse=0.1 save=63.5 ack=76.9/7.6/0 ui=0.0/133.8 log=0.0 loop=20.2 storage=0.2/62.9 saved_to_ack=1.0 ui_work=6.8 save_rid=207 save_ok=1 save_wall=62.8 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.9,record_open:0.8,record_write:0.2,record_flush:0.0,record_verify:0.1,record_replace:0.6,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:56.6,header_cleanup:0.1,metadata_update:0.0,metadata_encode:0.2,metadata_open:0.4,metadata_write:0.0,metadata_flush:0.1,metadata_verify:0.1,metadata_replace:0.9,metadata_cleanup:0.1,other:0.8
+[18:35:35] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 15 01 00 00 00 D1 00 00 00 00 00 00 00 01 01 00 00
+[18:35:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 16 01 00 00 00 D2 00 00 00 00 00 00 00 01 01 00 00
+[18:35:36] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 17 01 00 00 00 D3 00 00 00 00 00 00 00 01 01 00 00
+[18:35:37] [BLE_ACK] cmd=PING seq=24 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:37] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 19 01 00 00 00 D4 00 00 00 00 00 00 00 01 01 00 00
+[18:35:38] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 1A 01 00 00 00 D5 00 00 00 00 00 00 00 01 01 00 00
+[18:35:39] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 1B 01 00 00 00 D6 00 00 00 00 00 00 00 01 01 00 00
+[18:35:39] [ONLINE_HOST_STAT] sid=1 why=run cb=353 bytes=85580 seq=12583 ft=0x12 rid=214 off=11856 gap=13.6/417.0 q=0/9/289.1 parse=0.0 save=466.9 ack=78.2/6.9/0 ui=0.0/119.2 log=0.0 loop=23.4 storage=0.2/466.5 saved_to_ack=0.7 ui_work=5.7 save_rid=213 save_ok=1 save_wall=466.4 save_cpu=0.0 save_slow=header_replace save_steps=validate:0.0,record_dir:0.4,record_open:0.4,record_write:0.1,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.4,header_write:0.0,header_flush:0.1,header_verify:0.1,header_replace:458.5,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.5,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:3.6,metadata_cleanup:0.1,other:0.7
+[18:35:40] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 1C 01 00 00 00 D7 00 00 00 00 00 00 00 01 01 00 00
+[18:35:40] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 1D 01 00 00 00 D8 00 00 00 00 00 00 00 01 01 00 00
+[18:35:41] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 1E 01 00 00 00 D9 00 00 00 00 00 00 00 01 01 00 00
+[18:35:42] [BLE_ACK] cmd=PING seq=31 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:42] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 20 01 00 00 00 DA 00 00 00 00 00 00 00 01 01 00 00
+[18:35:43] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 21 01 00 00 00 DB 00 00 00 00 00 00 00 01 01 00 00
+[18:35:44] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 22 01 00 00 00 DC 00 00 00 00 00 00 00 01 01 00 00
+[18:35:44] [ONLINE_HOST_STAT] sid=1 why=run cb=384 bytes=93072 seq=12966 ft=0x15 rid=221 off=5824 gap=14.1/464.8 q=1/1/0.7 parse=0.2 save=18.8 ack=74.0/6.7/0 ui=0.0/186.8 log=0.0 loop=20.6 storage=0.2/18.2 saved_to_ack=1.0 ui_work=9.0 save_rid=216 save_ok=1 save_wall=18.0 save_cpu=0.0 save_slow=record_open save_steps=validate:0.0,record_dir:0.4,record_open:9.2,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.6,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:2.0,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.4,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.4,metadata_cleanup:0.2,other:0.9
+[18:35:44] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 23 01 00 00 00 DD 00 00 00 00 00 00 00 01 01 00 00
+[18:35:45] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 24 01 00 00 00 DE 00 00 00 00 00 00 00 01 01 00 00
+[18:35:46] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 25 01 00 00 00 DF 00 00 00 00 00 00 00 01 01 00 00
+[18:35:47] [BLE_ACK] cmd=PING seq=38 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:47] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 27 01 00 00 00 E0 00 00 00 00 00 00 00 01 01 00 00
+[18:35:47] [HOST_CI_CENTRAL] legacy_speed_skip=1 action=enter reason=before_pause_capture
+[18:35:47] [BLE_STATE] notify seq=4 status=0x00 device_state=0x03 exec_mode=0x01
+[18:35:47] [HOST_CI_CENTRAL][TX] PAUSE_CAPTURE payload=A5 01 02 28 01 00 00 00 35 56 FC D2 A0 01 00 00 01 00 00 00
+[18:35:47] [BLE_TX] PAUSE_CAPTURE seq=40 user_id=1 training_id=1 unix_time_ms=1790246147637 response=1 op=0 attempt=0 payload=A5 01 02 28 01 00 00 00 35 56 FC D2 A0 01 00 00 01 00 00 00
+[18:35:47] [BLE_ACK] cmd=PAUSE_CAPTURE seq=40 status=0x00 exec_mode=0x02 user_id=1 training_id=1
+[18:35:47] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=14 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:35:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 29 01 00 00 00 E1 00 00 00 00 00 00 00 01 01 00 00
+[18:35:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2A 01 00 00 00 E2 00 00 00 00 00 00 00 01 01 00 00
+[18:35:48] [ONLINE_STATE] end session_id=1 stop_reason=1 produced=226/0/0 acked=226/0/0 packets=144198 fixed40_time_valid=1
+[18:35:48] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=15 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:35:48] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 2B 01 00 00 00 00 00 00 00 00 00 00 00 FF 01 00 00
+[18:35:48] [BLE_STATE] notify seq=6 status=0x00 device_state=0x06 exec_mode=0x01
+[18:35:48] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=16 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:35:48] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=17 status=0 ready_bits=0x000061FB stage=6 reason=0 retry_ms=0
+[18:35:48] [CI_LINK] generation=1 transition=4 business_state=1 profile=1 phase=2 actual_ci=12 latency=0
+[18:35:48] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=4 business_state=1 requested_profile=1 phase=2 actual_ci=12 latency=0 initiator=1
+[18:35:48] [HOST_CI_CENTRAL] request_closed reason=profile_switch
+[18:35:48] [HOST_CI_CENTRAL] profile=BALANCED winrt_status=1 accepted=1
+[18:35:48] [CI_LINK] generation=1 transition=4 business_state=1 profile=1 phase=3 actual_ci=12 latency=0
+[18:35:48] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=44 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=65793
+[18:35:48] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 2C E4 25 97 B7 01 00 00 00 04 00 00 00 01 01 01 00
+[18:35:48] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=4 business_state=1 requested_profile=1 phase=3 actual_ci=12 latency=0 initiator=1
+[18:35:48] [ONLINE_HOST_FINAL] sid=1 why=end cb=284 bytes=68852 seq=13251 ft=0x13 rid=226 off=3952 gap=13.3/434.9 q=0/17/62.7 parse=0.1 save=18.5 ack=56.5/7.2/0 ui=0.0/79.5 log=0.1 loop=25.7 storage=0.3/197.5 saved_to_ack=1.4 ui_work=33.5 save_rid=223 save_ok=1 save_wall=17.8 save_cpu=15.6 save_slow=header_replace save_steps=validate:0.0,record_dir:0.4,record_open:0.3,record_write:0.1,record_flush:0.0,record_verify:0.0,record_replace:0.4,header_encode:0.1,header_open:1.0,header_write:0.0,header_flush:0.3,header_verify:0.2,header_replace:10.2,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.5,metadata_write:0.0,metadata_flush:0.2,metadata_verify:0.1,metadata_replace:2.0,metadata_cleanup:0.3,other:1.2 all_qmax=59 all_save_rid=11 all_save_time=18:32:57 all_save_steps=validate:0.0,record_dir:0.4,record_open:0.4,record_write:0.2,record_flush:0.0,record_verify:0.0,record_replace:0.5,header_encode:0.1,header_open:0.5,header_write:0.0,header_flush:0.2,header_verify:0.1,header_replace:860.4,header_cleanup:0.3,metadata_update:0.1,metadata_encode:0.2,metadata_open:0.7,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.2,metadata_replace:1.6,metadata_cleanup:0.2 percentiles=upper_bound_ms all_save=500/1000/868.1 all_loop=20/50/29.5 all_queue=1/500/799.9 all_ui=200/200/218.6 all_storage_queue=1/1/3.6 all_storage_work=50/1000/867.4 all_saved_to_ack=2/2/1.5 all_ui_work=20/50/33.5
+[18:35:48] [HOST_CI_CENTRAL] legacy_speed_skip=1 action=restore reason=online_end_idle
+[18:35:48] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=18 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:35:48] [CI_LINK] generation=1 transition=4 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:35:48] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=4 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:35:49] [BLE_STATE] notify seq=7 status=0x00 device_state=0x01 exec_mode=0x01
+[18:35:49] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=19 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:35:49] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=45 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=196865
+[18:35:49] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 2D E4 25 97 B7 01 00 00 00 04 00 00 00 01 01 03 00
+[18:35:49] [HOST_CI_CENTRAL] actual_stable generation=1 transition=4 profile=BALANCED ci=48 latency=0
+[18:35:49] [CI_LINK] generation=1 transition=4 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:35:49] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=4 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:35:52] [BLE_ACK] cmd=PING seq=46 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:35:57] [BLE_ACK] cmd=PING seq=47 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:36:02] [BLE_ACK] cmd=PING seq=48 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
