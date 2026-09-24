@@ -1,0 +1,107 @@
+[18:39:14] [BLE_ACK] cmd=PING seq=90 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:39:15] [HOST_CI_CENTRAL][TX] ONLINE_STRESS payload=A5 01 30 5B 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:39:15] [BLE_ACK] cmd=ONLINE_STREAM_READY seq=92 status=0x00 exec_mode=0x02 user_id=63 training_id=0
+[18:39:15] [ONLINE_STATE] ready_ack status=0x00 seq=92 detail=0x00000000
+[18:39:15] [HOST_CI_CENTRAL][TX] ONLINE_STREAM_READY payload=A5 01 22 5C 3F 00 00 00 A8 82 FF D2 A0 01 00 00 00 00 00 00
+[18:39:15] [BLE_TX] ONLINE_STREAM_READY seq=92 capability=0x0000003F host_time_ms=1790246355624 reason=stress_negotiate response=1 payload=A5 01 22 5C 3F 00 00 00 A8 82 FF D2 A0 01 00 00 00 00 00 00
+[18:39:15] [HOST_CI_CENTRAL][TX] ONLINE_STRESS payload=A5 01 30 5D 01 00 00 00 80 3E 00 00 01 00 00 00 01 00 00 00
+[18:39:15] [START_OP] op=2 attempt=1 from=IDLE to=PREPARING reason=user_start_claimed pending=1
+[18:39:15] [CI_RECOVERY] op=2 attempt=1 stage=send_start
+[18:39:15] [HOST_CI_CENTRAL] legacy_speed_skip=1 action=enter reason=before_start_capture
+[18:39:15] [START_OP] op=2 attempt=1 from=PREPARING to=WAIT_FINAL reason=start_frame_ready_seq_94 pending=1
+[18:39:15] [BLE_ACK] cmd=START_CAPTURE seq=94 status=0x00 exec_mode=0x03 user_id=1 training_id=1
+[18:39:15] [HOST_CI_CENTRAL][TX] START_CAPTURE payload=A5 01 01 5E 01 00 00 00 98 83 FF D2 A0 01 00 00 01 00 00 00
+[18:39:15] [BLE_TX] START_CAPTURE seq=94 user_id=1 training_id=1 unix_time_ms=1790246355864 response=1 op=2 attempt=1 payload=A5 01 01 5E 01 00 00 00 98 83 FF D2 A0 01 00 00 01 00 00 00
+[18:39:16] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=24 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:16] [BLE_STATE] notify seq=8 status=0x00 device_state=0x06 exec_mode=0x01
+[18:39:17] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=25 status=0 ready_bits=0x000061FB stage=6 reason=0 retry_ms=0
+[18:39:17] [CI_LINK] generation=1 transition=7 business_state=3 profile=2 phase=2 actual_ci=48 latency=0
+[18:39:17] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=7 business_state=3 requested_profile=2 phase=2 actual_ci=48 latency=0 initiator=1
+[18:39:17] [HOST_CI_CENTRAL] request_closed reason=profile_switch
+[18:39:17] [HOST_CI_CENTRAL] profile=THROUGHPUT_OPTIMIZED winrt_status=1 accepted=1
+[18:39:17] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=95 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=65794
+[18:39:17] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 5F E4 25 97 B7 01 00 00 00 07 00 00 00 02 01 01 00
+[18:39:17] [CI_LINK] generation=1 transition=7 business_state=3 profile=2 phase=3 actual_ci=48 latency=0
+[18:39:17] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=7 business_state=3 requested_profile=2 phase=3 actual_ci=48 latency=0 initiator=1
+[18:39:18] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=26 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:18] [CI_LINK] generation=1 transition=7 business_state=3 profile=2 phase=4 actual_ci=12 latency=0
+[18:39:18] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=7 business_state=3 requested_profile=2 phase=4 actual_ci=12 latency=0 initiator=1
+[18:39:18] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=27 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:18] [BLE_STATE] notify seq=9 status=0x00 device_state=0x01 exec_mode=0x01
+[18:39:19] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=96 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=196866
+[18:39:19] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 60 E4 25 97 B7 01 00 00 00 07 00 00 00 02 01 03 00
+[18:39:19] [HOST_CI_CENTRAL] actual_stable generation=1 transition=7 profile=THROUGHPUT_OPTIMIZED ci=12 latency=0
+[18:39:19] [CI_LINK] generation=1 transition=7 business_state=3 profile=2 phase=4 actual_ci=12 latency=0
+[18:39:19] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=7 business_state=3 requested_profile=2 phase=4 actual_ci=12 latency=0 initiator=1
+[18:39:19] [ONLINE_STATE] start session_id=1 user_id=1 training_id=1 ack_timeout_ms=2000 summary_batch=1 store=C:\Users\85836\AppData\Local\ZY100_BLE_Tool\online_sessions\20260924_183919_00000001_STRESS
+[18:39:19] [BLE_ACK] cmd=START_CAPTURE seq=94 status=0x00 exec_mode=0x02 user_id=1 training_id=1
+[18:39:19] [HOST_CI_SM] observe id=3 desired=ACTIVE_IDLE actual=CAPTURE_RUNTIME ci_ms=15 latency=0 match=0 elapsed_ms=410578 source=start_final_ack
+[18:39:19] [START_OP] op=2 attempt=1 from=WAIT_FINAL to=TERMINAL reason=final_ack_success pending=1
+[18:39:19] [START_OP] op=2 attempt=1 from=TERMINAL to=IDLE reason=final_ack_success_cleanup_complete pending=0
+[18:39:19] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=28 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:19] [BLE_STATE] notify seq=10 status=0x00 device_state=0x0B exec_mode=0x01
+[18:39:19] [BLE_ACK] cmd=PING seq=97 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0
+[18:39:19] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 62 01 00 00 00 01 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 63 01 00 00 00 02 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 64 01 00 00 00 03 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 65 01 00 00 00 04 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 66 01 00 00 00 05 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 67 01 00 00 00 06 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 68 01 00 00 00 07 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 69 01 00 00 00 08 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6A 01 00 00 00 09 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6B 01 00 00 00 0A 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6C 01 00 00 00 0B 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6D 01 00 00 00 0C 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6E 01 00 00 00 0D 00 00 00 00 00 00 00 04 01 00 00
+[18:39:20] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 6F 01 00 00 00 0E 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 70 01 00 00 00 0F 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 71 01 00 00 00 10 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 72 01 00 00 00 11 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 73 01 00 00 00 12 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 74 01 00 00 00 13 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 75 01 00 00 00 14 00 00 00 00 00 00 00 04 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 76 01 00 00 00 15 00 00 00 00 00 00 00 01 01 00 00
+[18:39:21] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 77 01 00 00 00 16 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 78 01 00 00 00 17 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 79 01 00 00 00 18 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7A 01 00 00 00 19 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7B 01 00 00 00 1A 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7C 01 00 00 00 1B 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7D 01 00 00 00 1C 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7E 01 00 00 00 1D 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 7F 01 00 00 00 1E 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 80 01 00 00 00 1F 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 81 01 00 00 00 20 00 00 00 00 00 00 00 04 01 00 00
+[18:39:22] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 82 01 00 00 00 21 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 83 01 00 00 00 22 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 84 01 00 00 00 23 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=29 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:23] [BLE_STATE] notify seq=11 status=0x00 device_state=0x03 exec_mode=0x01
+[18:39:23] [BLE_STATE] notify seq=12 status=0x00 device_state=0x06 exec_mode=0x01
+[18:39:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 85 01 00 00 00 24 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=30 status=0 ready_bits=0x000061FB stage=6 reason=0 retry_ms=0
+[18:39:23] [CI_LINK] generation=1 transition=8 business_state=1 profile=1 phase=2 actual_ci=12 latency=0
+[18:39:23] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=8 business_state=1 requested_profile=1 phase=2 actual_ci=12 latency=0 initiator=1
+[18:39:23] [HOST_CI_CENTRAL] request_closed reason=profile_switch
+[18:39:23] [HOST_CI_CENTRAL] profile=BALANCED winrt_status=1 accepted=1
+[18:39:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 86 01 00 00 00 25 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 87 E4 25 97 B7 01 00 00 00 08 00 00 00 01 01 01 00
+[18:39:23] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=135 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=65793
+[18:39:23] [CI_LINK] generation=1 transition=8 business_state=1 profile=1 phase=3 actual_ci=12 latency=0
+[18:39:23] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=8 business_state=1 requested_profile=1 phase=3 actual_ci=12 latency=0 initiator=1
+[18:39:23] [HOST_CI_CENTRAL][TX] ONLINE_RECORD_ACK payload=A5 01 23 88 01 00 00 00 26 00 00 00 00 00 00 00 04 01 00 00
+[18:39:23] [ONLINE_HOST_FINAL] sid=1 why=device sent ONLINE_ABORT cb=247 bytes=59356 seq=250 ft=0x14 rid=38 off=832 gap=13.7/122.0 q=0/26/286.2 parse=0.1 save=23.1 ack=135.7/25.7/0 ui=0.0/73.9 log=0.1 loop=15.6 storage=0.2/16.5 saved_to_ack=12.5 ui_work=6.7 save_rid=29 save_ok=1 save_wall=10.7 save_cpu=0.0 save_slow=metadata_replace save_steps=validate:0.0,record_dir:0.3,record_open:0.3,record_write:0.0,record_flush:0.1,record_verify:0.0,record_replace:0.4,header_encode:0.1,header_open:0.4,header_write:0.1,header_flush:0.5,header_verify:0.2,header_replace:2.2,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.3,metadata_replace:3.0,metadata_cleanup:0.2,other:1.0 all_qmax=26 all_save_rid=29 all_save_time=18:39:22 all_save_steps=validate:0.0,record_dir:0.3,record_open:0.3,record_write:0.0,record_flush:0.1,record_verify:0.0,record_replace:0.4,header_encode:0.1,header_open:0.4,header_write:0.1,header_flush:0.5,header_verify:0.2,header_replace:2.2,header_cleanup:0.2,metadata_update:0.1,metadata_encode:0.1,metadata_open:0.8,metadata_write:0.0,metadata_flush:0.3,metadata_verify:0.3,metadata_replace:3.0,metadata_cleanup:0.2 percentiles=upper_bound_ms all_save=20/50/23.1 all_loop=20/20/15.6 all_queue=500/500/286.2 all_ui=100/100/73.9 all_storage_queue=1/1/0.2 all_storage_work=20/20/16.5 all_saved_to_ack=2/20/12.5 all_ui_work=10/10/6.7
+[18:39:23] [HOST_CI_SM] observe id=3 desired=ACTIVE_IDLE actual=CAPTURE_RUNTIME ci_ms=15 latency=0 match=0 elapsed_ms=414125 source=online_error:device sent ONLINE_ABORT
+[18:39:23] [ONLINE_STATE][ERR] reason=device sent ONLINE_ABORT
+[18:39:23] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=31 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:23] [CI_LINK] generation=1 transition=8 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:39:23] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=8 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:39:24] [BLE_STATE] notify seq=13 status=0x00 device_state=0x01 exec_mode=0x01
+[18:39:24] [BLE_BOOTSTRAP] snapshot_rx generation=1 revision=32 status=2 ready_bits=0x000067FF stage=13 reason=0 retry_ms=0
+[18:39:24] [BLE_ACK] cmd=HOST_PROFILE_RESULT seq=137 status=0x00 exec_mode=0x02 user_id=3080136164 training_id=196865
+[18:39:24] [HOST_CI_CENTRAL][TX] HOST_PROFILE_RESULT payload=A5 01 13 89 E4 25 97 B7 01 00 00 00 08 00 00 00 01 01 03 00
+[18:39:24] [HOST_CI_CENTRAL] actual_stable generation=1 transition=8 profile=BALANCED ci=48 latency=0
+[18:39:24] [CI_LINK] generation=1 transition=8 business_state=1 profile=1 phase=4 actual_ci=48 latency=0
+[18:39:24] [HOST_CI_CENTRAL][LINK] session=3080136164 generation=1 transition=8 business_state=1 requested_profile=1 phase=4 actual_ci=48 latency=0 initiator=1
+[18:39:24] [BLE_ACK] cmd=PING seq=138 status=0x00 exec_mode=0x01 user_id=3080136164 training_id=0

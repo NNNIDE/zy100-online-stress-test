@@ -16,7 +16,7 @@ Private source-reading handoff dated 2026-09-24.
 - [Architecture](docs/ARCHITECTURE.md): startup, generation, Flash, BLE, persistence and ACK flow.
 - [Update log](docs/UPDATE_LOG.md): snapshot history and validation boundaries.
 - [File inventory](docs/SNAPSHOT_MANIFEST.json): original-byte sizes and SHA-256.
-- [Captured logs](logs/2026-09-24/README.md): two unchanged user-supplied logs.
+- [Captured logs](logs/2026-09-24/README.md): four unchanged user-supplied logs.
 
 This is a reading snapshot, not an independently buildable or runnable distribution. Keil projects, proprietary binary libraries, firmware images, executables, installers, environments, private settings, build outputs and unrelated tests are intentionally absent. Original source comments and logs are not translated. No algorithm, protocol or firmware version was modified.
 
